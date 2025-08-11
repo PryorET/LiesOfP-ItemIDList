@@ -2,7 +2,7 @@
 ## 🧭 Item ID Compendium
 _Every relic has a name. Every name has a code. Welcome to the vault._
 
-**This repository contains a categorized list of item IDs used in-game. Click on the titles below to skip to a category:**
+**This repository contains a categorized list of Item IDs used in-game. Click on the titles below to skip to a category:**
 > 🔑[Key Items](#key-items) ⚔️[Weapons](#weapons) 🦾[Legion Arms](#legion-arms) 💝[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) <br>
 > 📀[Records](#records) 🌙[Upgrade Materials](#upgrade-materials) 💎[Ergo](#ergo) 🧥[Costumes](#costumes) 📜[Quest Items](#quest-items)
 ---

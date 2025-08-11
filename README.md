@@ -3,17 +3,42 @@
 _Every relic has a name. Every name has a code. Welcome to the vault._
 
 **This repository contains a categorized list of item IDs used in-game. Click on the titles below to skip to a category:**
-> 🔑[Key Items](#key-items) ⚔️[Weapons](#weapons) 🦾[Legion Arms](#legion-arms) ♥️[Amulets](#amulets)🛡️[Defense Parts](#defense-parts)
->
+> 🔑[Key Items](#key-items) ⚔️[Weapons](#weapons) 🦾[Legion Arms](#legion-arms) ♥️[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) <br>
 > 📀[Records](#records) 🌙[Upgrade Materials](#upgrade-materials) 💎[Ergo](#ergo) 🧥[Costumes](#costumes) 📜[Quest Items](#quest-items)
 ---
 
 ### ⚠️IMPORTANT: Read before proceeding
-- This list is **incomplete** and needs work, especially in the Quest Items section which only has items of the base game.
-- All **command syntaxes** given in this file are based on this tool by **sunbeam** - https://fearlessrevolution.com/viewtopic.php?f=4&t=25815
+- This list is **incomplete**, especially in the Quest Items section which only has base game items.
+- All **command syntaxes** given in this file are based on **[this tool](https://fearlessrevolution.com/viewtopic.php?f=4&t=25815) by [sunbeam](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=12587&sid=7e28eac477c840641d12dc752638bac1)**.
+- Some category headings have a note below them. Make sure to read it before using Item IDs from that category!
+---
 
 ### Key Items
 ### Weapons
+<details>
+<summary><strong>📝NOTE! Click to Expand</strong></summary>
+  
+#### IMPORTANT! Given Item IDs in this category **do not give the entire weapon** but only the `Blade` part of the weapon. 
+To get a Complete Weapon you need to get both the `Blade` and the `Handle` part of the weapon. For every weapon the blade part is represented by `BLD` and the handle part is represented by `HND` in the Item ID.
+#### Command Syntax:
+> To get a complete weapon: `giveweapon <Handle ID> <Blade ID> <quantity>` <br>
+> To get a particular weapon part: `giveitem <Handle ID OR Blade ID> <quantity>`
+  
+#### Example:
+> Item ID `WP_PC_BLD_Saber` will give the `Puppet's Saber Blade` <br>
+> Item ID `WP_PC_HND_Saber` will give the `Puppet's Saber Handle`
+> 
+> Therefore to get a complete Puppets Saber the command is: `giveweapon WP_PC_HND_Saber WP_PC_BLD_Saber 1`
+
+This is also true for special weapons that do not allow splitting the blade and the handle. But using commands it is possible to get only one part thus allowing Weapon Assembly with special weapon parts too.
+
+#### Example:
+>	Item ID `WP_PC_BLD_RoseSword` will give the `Monad's Sword` _(The name will be `Monad's Sword` but it will only be the Blade)_ <br>
+> Item ID `WP_PC_HND_RoseSword` will give the `Monad's Sword` _(The name will be `Monad's Sword` but it will only be the Handle)_
+>
+>	Therefore to get a complete Monads Sword the command is: `giveweapon WP_PC_HND_RoseSword WP_PC_BLD_RoseSword 1`
+</details>
+
 ### Legion Arms
 ### Amulets
 ### Defense Parts
@@ -22,3 +47,11 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 ### Ergo
 ### Costumes
 ### Quest Items
+
+#### A good portion of this list is taken [from here](https://fearlessrevolution.com/viewtopic.php?p=317058#p317058) (Credit: [NarcolepticIBS](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=170917&sid=b8be7d1e0c54b7505bfc7fd4f9a6fb06))
+
+### Future Plans
+- I plan to complete - Missing Item names & DLC Quest Items
+- I do not plan to complete - DLC Collectibles
+- Contributions via Pull Requests will be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!
+

@@ -3,7 +3,7 @@
 _Every relic has a name. Every name has a code. Welcome to the vault._
 
 **This repository contains a categorized list of item IDs used in-game. Click on the titles below to skip to a category:**
-> 🔑[Key Items](#key-items) ⚔️[Weapons](#weapons) 🦾[Legion Arms](#legion-arms) ♥️[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) <br>
+> 🔑[Key Items](#key-items) ⚔️ [Weapons](#weapons) 🦾[Legion Arms](#legion-arms) ♥️[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) <br>
 > 📀[Records](#records) 🌙[Upgrade Materials](#upgrade-materials) 💎[Ergo](#ergo) 🧥[Costumes](#costumes) 📜[Quest Items](#quest-items)
 ---
 
@@ -14,7 +14,7 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 
 ### ⚙️Note on Commands
 - If you're using this ID list to give yourself items, read carefully.
-- All **command syntaxes** given in this file are based on **[this tool](https://fearlessrevolution.com/viewtopic.php?f=4&t=25815) by [sunbeam](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=12587&sid=7e28eac477c840641d12dc752638bac1)**.
+- All **command syntaxes** given in this file are based on **[this tool](https://fearlessrevolution.com/viewtopic.php?f=4&t=25815) by [sunbeam](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=12587&sid=7e28eac477c840641d12dc752638bac1)**. You need to install it to use the given Commands.
 
   > Command Syntax to getting Items: `OnGainItem <ItemId> <ItemCount>`<br>
   > Example: `OnGainItem Quartz 10` will give **10 Quartz**
@@ -59,10 +59,14 @@ This is also true for special weapons that do not allow splitting the blade and 
 ### Ergo
 ### Costumes
 ### Quest Items
+---
 
-#### A good portion of this list is taken [from here](https://fearlessrevolution.com/viewtopic.php?p=317058#p317058) (Credit: [NarcolepticIBS](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=170917&sid=b8be7d1e0c54b7505bfc7fd4f9a6fb06))
+### ✍️Creator Notes
+This list primarily is for players who aren’t deep in the modding or game-unpacking scene but still want to spawn items in-game. Before the Overture DLC, [this list](https://fearlessrevolution.com/viewtopic.php?p=317058#p317058) by [NarcolepticIBS](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=170917&sid=b8be7d1e0c54b7505bfc7fd4f9a6fb06) was the go-to resource — but it never got updated after the DLC dropped.<br>
+So when I started digging for Item IDs myself, I figured I can build a fresh, updated, centralized version. And host it on Github so others can contribute.<br>
+Hope it’s as useful to others as it’s been for me. Happy spawning! 🎮
 
-### Future Plans
+### 📈Future Plans
 - I plan to complete - Missing Item names & DLC Quest Items
 - I do not plan to complete - DLC Collectibles
 - Contributions via Pull Requests will be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!

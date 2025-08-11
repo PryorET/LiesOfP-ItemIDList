@@ -9,12 +9,24 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 
 ### ⚠️IMPORTANT: Read before proceeding
 - This list is **incomplete**, especially in the Quest Items section which only has base game items.
-- All **command syntaxes** given in this file are based on **[this tool](https://fearlessrevolution.com/viewtopic.php?f=4&t=25815) by [sunbeam](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=12587&sid=7e28eac477c840641d12dc752638bac1)**.
 - Some category headings have a note below them. Make sure to read it before using Item IDs from that category!
 ---
 
-### Key Items
-### Weapons
+### ⚙️Note on Commands
+- If you're using this ID list to give yourself items, read carefully.
+- All **command syntaxes** given in this file are based on **[this tool](https://fearlessrevolution.com/viewtopic.php?f=4&t=25815) by [sunbeam](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=12587&sid=7e28eac477c840641d12dc752638bac1)**.
+
+  > Command Syntax to getting Items: `OnGainItem <ItemId> <ItemCount>`<br>
+  > Example: `OnGainItem Quartz 10` will give **10 Quartz**
+- Command to give Weapons are different, refer to **Weapon Category Notes**. For more info on commands refer to the original tool linked above.
+---
+
+## Without Further Ado...
+
+### 🔑Key Items
+
+### ⚔️Weapons
+
 <details>
 <summary><strong>📝NOTE! Click to Expand</strong></summary>
   

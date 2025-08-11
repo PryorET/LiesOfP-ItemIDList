@@ -49,6 +49,8 @@ This is also true for special weapons that do not allow splitting the blade and 
 > Item ID `WP_PC_HND_RoseSword` will give the `Monad's Sword` _(The name will be `Monad's Sword` but it will only be the Handle)_
 >
 >	Therefore to get a complete Monads Sword the command is: `giveweapon WP_PC_HND_RoseSword WP_PC_BLD_RoseSword 1`
+
+Which basically means that whenever you select a Item ID from this list, replace `BLD` in it with `HND` to get its corresponding Handle Part.
 </details>
 
 ### 🦾Legion Arms

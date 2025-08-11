@@ -3,7 +3,7 @@
 _Every relic has a name. Every name has a code. Welcome to the vault._
 
 **This repository contains a categorized list of item IDs used in-game. Click on the titles below to skip to a category:**
-> 🔑[Key Items](#key-items) ⚔️ [Weapons](#weapons) 🦾[Legion Arms](#legion-arms) ♥️[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) <br>
+> 🔑[Key Items](#key-items) ⚔️[Weapons](#weapons) 🦾[Legion Arms](#legion-arms) ♥️[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) <br>
 > 📀[Records](#records) 🌙[Upgrade Materials](#upgrade-materials) 💎[Ergo](#ergo) 🧥[Costumes](#costumes) 📜[Quest Items](#quest-items)
 ---
 
@@ -21,11 +21,11 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 - Command to give Weapons are different, refer to **Weapon Category Notes**. For more info on commands refer to the original tool linked above.
 ---
 
-## Without Further Ado...
+## So Without Further Ado...
 
 ### 🔑Key Items
 
-### ⚔️Weapons
+### ⚔Weapons
 
 <details>
 <summary><strong>📝NOTE! Click to Expand</strong></summary>
@@ -51,14 +51,14 @@ This is also true for special weapons that do not allow splitting the blade and 
 >	Therefore to get a complete Monads Sword the command is: `giveweapon WP_PC_HND_RoseSword WP_PC_BLD_RoseSword 1`
 </details>
 
-### Legion Arms
-### Amulets
-### Defense Parts
-### Records
-### Upgrade Materials
-### Ergo
-### Costumes
-### Quest Items
+### 🦾Legion Arms
+### ♥Amulets
+### 🛡Defense Parts
+### 📀Records
+### 🌙Upgrade Materials
+### 💎Ergo
+### 🧥Costumes
+### 📜Quest Items
 ---
 
 ### ✍️Creator Notes

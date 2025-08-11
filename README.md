@@ -3,7 +3,7 @@
 _Every relic has a name. Every name has a code. Welcome to the vault._
 
 **This repository contains a categorized list of Item IDs used in-game. Click on the titles below to skip to a category:**
-> 🔑[Key Items](#key-items) ⚔️[Weapons](#weapons) 🦾[Legion Arms](#legion-arms) 💝[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) <br>
+> 🔑[Key Items](#key-items) 🔁[Exchange Materials](#exchange-materials) ⚔️[Weapons](#weapons) 🦾[Legion Arms](#legion-arms) 💝[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) <br>
 > 📀[Records](#records) 🌙[Upgrade Materials](#upgrade-materials) 💎[Ergo](#ergo) 🧥[Costumes](#costumes) 📜[Quest Items](#quest-items)
 ---
 
@@ -24,6 +24,43 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 ## So Without Further Ado...
 
 ### 🔑Key Items
+| Item ID                             | Name                          |
+|-------------------------------------|-------------------------------|
+| `Consume_Monard_Lamp`              | Monad's Lamp                  |
+| `Consume_ReturnClock`              | Guide's Hourglass             |
+| `Consume_ReturnClockE`             | Moonphase Pocket Watch        |
+| `Consume_giveup`                   | Last Resort                   |
+| `Consume_Buff_sharpness_recovery`  | Grinder                       |
+| `Consume_Monard_bless`             | Cube                          |
+| `P_Organ_CorePart`                 | Core                          |
+| `P_Organ_CorePart_Advance`         | Upgrade Core                  |
+| `Weapon_combine`                   | Enigma Assembly Tool          |
+| `Grinder_Unit_Unlock`              | Grinder Modification Unit     |
+| `Collection_Core_Electronic`       | Overcharged Storage Battery   |
+| `Collection_Core_Fire`             | High Powered Flame Amplifier  |
+---
+
+### 🔁Exchange Materials
+| Item ID                          | Name                                 |
+|----------------------------------|--------------------------------------|
+| `Quartz`                         | Quartz                               |
+|‎‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎|‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ |
+| `Exchange_SlaveArm_Parts_4`      | Legion Plug                          |
+| `DLC_Exchange_SlaveArm_Parts`    | Genius' Legion Plug                  |
+| `Reinforce_SlaveArm_G1`          | Legion Caliber                       |
+|‎‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎|‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ |
+| `Handle_InfusionStone_Type1`     | Motivity Crank                       |
+| `Handle_InfusionStone_Type2`     | Technique Crank                      |
+| `Handle_InfusionStone_Type3`     | Advance Crank                        |
+| `Handle_InfusionStone_Type4`     | Balance Crank                        |
+|‎‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎|‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ |
+| `Reinforce_Blade_Common_G1`      | Hidden Moonstone                     |
+| `Reinforce_Blade_Common_G2`      | Crescent Moonstone                   |
+| `Reinforce_Blade_Common_G3`      | Half Moonstone                       |
+| `Reinforce_Blade_Common_G4`      | Full Moonstone                       |
+| `Reinforce_Hero_G1`              | Dark moon Moonstone of the Covenant  |
+| `Reinforce_Hero_G2`              | Full Moonstone of the Covenant       |
+---
 
 ### ⚔Weapons
 
@@ -53,7 +90,22 @@ This is also true for special weapons that do not allow splitting the blade and 
 Which basically means that whenever you select a Item ID from this list, replace `BLD` in it with `HND` to get its corresponding Handle Part.
 </details>
 
+---
+
 ### 🦾Legion Arms
+| Item ID                     | Name             |
+|-----------------------------|------------------|
+| `SlaveArm_Normal`           | Left Arm of Steel|
+| `SlaveArm_PuppetString`     | Puppet String    |
+| `SlaveArm_Fulminis`         | Fulminis         |
+| `SlaveArm_Flamberge`        | Flamberge        |
+| `SlaveArm_AcidLuncher`      | Pandemonium      |
+| `SlaveArm_PileBunker`       | Deus Ex Machina  |
+| `SlaveArm_Aegis`            | Aegis            |
+| `SlaveArm_SniperCannon`     | Falcon Eyes      |
+| `SlaveArm_Boomerang`        | Icarus           |
+| `SlaveArm_ChargeShotGun`    | Cataclysm        |
+---
 ### 💝Amulets
 ### 🛡Defense Parts
 ### 📀Records

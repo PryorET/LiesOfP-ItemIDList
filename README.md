@@ -22,44 +22,46 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 ---
 
 ## So Without Further Ado...
-
 ### 🔑Key Items
-| Item ID                             | Name                          |
-|-------------------------------------|-------------------------------|
-| `Consume_Monard_Lamp`              | Monad's Lamp                  |
-| `Consume_ReturnClock`              | Guide's Hourglass             |
-| `Consume_ReturnClockE`             | Moonphase Pocket Watch        |
-| `Consume_giveup`                   | Last Resort                   |
-| `Consume_Buff_sharpness_recovery`  | Grinder                       |
-| `Consume_Monard_bless`             | Cube                          |
-| `P_Organ_CorePart`                 | Core                          |
-| `P_Organ_CorePart_Advance`         | Upgrade Core                  |
-| `Weapon_combine`                   | Enigma Assembly Tool          |
-| `Grinder_Unit_Unlock`              | Grinder Modification Unit     |
-| `Collection_Core_Electronic`       | Overcharged Storage Battery   |
-| `Collection_Core_Fire`             | High Powered Flame Amplifier  |
+| Sl.| Item Name                    | Item ID                           | Notes |
+|----|------------------------------|-----------------------------------|-------|
+| 1  | Monad's Lamp                 | `Consume_Monard_Lamp`             |       |
+| 2  | Guide's Hourglass            | `Consume_ReturnClock`             |       |
+| 3  | Moonphase Pocket Watch       | `Consume_ReturnClockE`            |       |
+| 4  | Last Resort                  | `Consume_giveup`                  |       |
+| 5  | Grinder                      | `Consume_Buff_sharpness_recovery` |       |
+| 6  | Cube                         | `Consume_Monard_bless`            |       |
+| 7  | Core                         | `P_Organ_CorePart`                |       |
+| 8  | Upgrade Core                 | `P_Organ_CorePart_Advance`        | DLC   |
+| 9  | Enigma Assembly Tool         | `Weapon_combine`                  |       |
+| 10 | Grinder Modification Unit    | `Grinder_Unit_Unlock`             |       |
+| 11 | Overcharged Storage Battery  | `Collection_Core_Electronic`      |       |
+| 12 | High Powered Flame Amplifier | `Collection_Core_Fire`            |       |
+
+#### Missing: Star Chrysalis
 ---
 
 ### 🔁Exchange Materials
-| Item ID                          | Name                                 |
-|----------------------------------|--------------------------------------|
-| `Quartz`                         | Quartz                               |
-|‎‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎|‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ |
-| `Exchange_SlaveArm_Parts_4`      | Legion Plug                          |
-| `DLC_Exchange_SlaveArm_Parts`    | Genius' Legion Plug                  |
-| `Reinforce_SlaveArm_G1`          | Legion Caliber                       |
-|‎‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎|‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ |
-| `Handle_InfusionStone_Type1`     | Motivity Crank                       |
-| `Handle_InfusionStone_Type2`     | Technique Crank                      |
-| `Handle_InfusionStone_Type3`     | Advance Crank                        |
-| `Handle_InfusionStone_Type4`     | Balance Crank                        |
-|‎‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎|‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ |
-| `Reinforce_Blade_Common_G1`      | Hidden Moonstone                     |
-| `Reinforce_Blade_Common_G2`      | Crescent Moonstone                   |
-| `Reinforce_Blade_Common_G3`      | Half Moonstone                       |
-| `Reinforce_Blade_Common_G4`      | Full Moonstone                       |
-| `Reinforce_Hero_G1`              | Dark moon Moonstone of the Covenant  |
-| `Reinforce_Hero_G2`              | Full Moonstone of the Covenant       |
+| Sl.| Item Name                           | Item ID                       | Notes |
+|----|-------------------------------------|-------------------------------|-------|
+| 1  | Quartz                              | `Quartz`                      |       |
+|‎‎‎||
+| 2  | Legion Plug                         | `Exchange_SlaveArm_Parts_4`   |       |
+| 3  | Genius' Legion Plug                 | `DLC_Exchange_SlaveArm_Parts` | DLC   |
+| 4  | Legion Caliber                      | `Reinforce_SlaveArm_G1`       |       |
+|‎‎‎||
+| 5  | Motivity Crank                      | `Handle_InfusionStone_Type1`  |       |
+| 6  | Technique Crank                     | `Handle_InfusionStone_Type2`  |       |
+| 7  | Advance Crank                       | `Handle_InfusionStone_Type3`  |       |
+| 8  | Balance Crank                       | `Handle_InfusionStone_Type4`  |       |
+|‎‎‎||
+| 9  | Hidden Moonstone                    | `Reinforce_Blade_Common_G1`   |       |
+| 10 | Crescent Moonstone                  | `Reinforce_Blade_Common_G2`   |       |
+| 11 | Half Moonstone                      | `Reinforce_Blade_Common_G3`   |       |
+| 12 | Full Moonstone                      | `Reinforce_Blade_Common_G4`   |       |
+| 13 | Dark moon Moonstone of the Covenant | `Reinforce_Hero_G1`           |       |
+| 14 | Full Moonstone of the Covenant      | `Reinforce_Hero_G2`           |       |
+
 ---
 
 ### ⚔Weapons

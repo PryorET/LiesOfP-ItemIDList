@@ -29,14 +29,16 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 | 2  | Guide's Hourglass            | `Consume_ReturnClock`             |       |
 | 3  | Moonphase Pocket Watch       | `Consume_ReturnClockE`            |       |
 | 4  | Last Resort                  | `Consume_giveup`                  |       |
-| 5  | Grinder                      | `Consume_Buff_sharpness_recovery` |       |
-| 6  | Cube                         | `Consume_Monard_bless`            |       |
-| 7  | Core                         | `P_Organ_CorePart`                |       |
-| 8  | Upgrade Core                 | `P_Organ_CorePart_Advance`        | DLC   |
-| 9  | Enigma Assembly Tool         | `Weapon_combine`                  |       |
-| 10 | Grinder Modification Unit    | `Grinder_Unit_Unlock`             |       |
-| 11 | Overcharged Storage Battery  | `Collection_Core_Electronic`      |       |
-| 12 | High Powered Flame Amplifier | `Collection_Core_Fire`            |       |
+| 5  | Pulse Cell                   | `Consume_Rechargeable_1`          |       |
+| 6  | Grinder                      | `Consume_Buff_sharpness_recovery` |       |
+| 7  | Cube                         | `Consume_Monard_bless`            |       |
+| 8  | Core                         | `P_Organ_CorePart`                |       |
+| 9  | Upgrade Core                 | `P_Organ_CorePart_Advance`        | DLC   |
+| 10 | Enigma Assembly Tool         | `Weapon_combine`                  |       |
+| 11 | Grinder Modification Unit    | `Grinder_Unit_Unlock`             |       |
+| 12 | Overcharged Storage Battery  | `Collection_Core_Electronic`      |       |
+| 13 | High Powered Flame Amplifier | `Collection_Core_Fire`            |       |
+
 
 #### Missing: Star Chrysalis
 ---
@@ -91,6 +93,70 @@ This is also true for special weapons that do not allow splitting the blade and 
 
 Which basically means that whenever you select a Item ID from this list, replace `BLD` in it with `HND` to get its corresponding Handle Part.
 </details>
+
+### DLC Weapons
+| Sl.| Weapon Name                   | Blade Part ID            | Notes |
+|----|-------------------------------|--------------------------|-------|
+| 1  | Pale Knight                   | `WP_PC_BLD_Gunblade`     | BOSS  |
+| 2  | Death's Talon                 | `WP_PC_BLD_IronClaw`     | BOSS  |
+|||
+| 3  | Monad's Sword                 | `WP_PC_BLD_RoseSword`    |SPECIAL|
+| 4  | Royal Horn Bow                | `WP_PC_BLD_Gakgung`      |SPECIAL|
+|||
+| 5  | Maniac's Pinwheel             | `WP_PC_BLD_Pinwheel`     |       |
+| 6  | La Vendetta                   | `WP_PC_BLD_Guardbat`     |       |
+| 7  | Lorenzini Bolt                | `WP_PC_BLD_Ballista`     |       |
+| 8  | Silent Evangelist's Mace      | `WP_PC_BLD_AcidHammer`   |       |
+| 9  | Arche's Guardian              | `WP_PC_BLD_ThunderSword` |       |
+| 10 | Puppet of the Future's Welder | `WP_PC_BLD_FireRapier`   |       |
+
+### Base Game Weapons
+| Sl.| Weapon Name                    | Blade Part ID                   | Notes |
+|----|--------------------------------|---------------------------------|-------|
+| 1  | Seven-Coil Spring Sword        | `WP_PC_BLD_SevenSword`          | BOSS  |
+| 2  | Etiquette                      | `WP_PC_BLD_UmbrellaSword`       | BOSS  |
+| 3  | Holy Sword of the Ark          | `WP_PC_BLD_TransformGreatSword` | BOSS  |
+| 4  | Trident of the Covenant        | `WP_PC_BLD_Trident`             | BOSS  |
+| 5  | Puppet Ripper                  | `WP_PC_BLD_ChainScythe`         | BOSS  |
+| 6  | Frozen Feast                   | `WP_PC_BLD_CrystalSword`        | BOSS  |
+| 7  | Two Dragons Sword              | `WP_PC_BLD_Hwando`              | BOSS  |
+| 8  | Uroboros's Eye                 | `WP_PC_BLD_Charkram`            | BOSS  |
+| 9  | Noblesse Oblige                | `WP_PC_BLD_KkabiClub`           | BOSS  |
+| 10 | Proof of Humanity              | `WP_PC_BLD_ScissorSword`        | BOSS  |
+|||
+| 11 | Golden Lie                     | `WP_PC_BLD_NoseStaff`           |SPECIAL|
+| 12 | Azure Dragon Crescent Glaive   | `WP_PC_HND_DragonGlaive`        |SPECIAL|
+|||
+| 13 | Puppet's Saber                 | `WP_PC_BLD_Saber`               |       |
+| 14 | Wintry Rapier                  | `WP_PC_BLD_Rapier`              |       |
+| 15 | Greatsword of Fate             | `WP_PC_BLD_Bayonet`             |       |
+|||
+| 16 | Bramble Curved Sword           | `WP_PC_BLD_Kukri`               |       |
+| 17 | Military Shovel                | `WP_PC_BLD_Shovel`              |       |
+| 18 | Exploding Pickaxe              | `WP_PC_BLD_FirePickaxe`         |       |
+| 19 | Blind Man's Double-Sided Spear | `WP_PC_BLD_ShieldSpear`         |       |
+| 20 | Big Pipe Wrench Head           | `WP_PC_BLD_ClockworkBlunt`      |       |
+| 21 | City Longspear                 | `WP_PC_BLD_GreatSpear`          |       |
+| 22 | Spear of Honor                 | `WP_PC_BLD_SwordLance`          |       |
+| 23 | Master Chef's Knife            | `WP_PC_BLD_Cleaver`             |       |
+| 24 | Dancer's Curved Sword          | `WP_PC_BLD_Shamshir`            |       |
+| 25 | Booster Glaive                 | `WP_PC_BLD_Glaive`              |       |
+| 26 | Bone-Cutting Sawblade          | `WP_PC_BLD_GreatSaw`            |       |
+| 27 | Acidic Crystal Spear           | `WP_PC_BLD_CrystalSpear`        |       |
+| 28 | Acidic Great Curved Sword      | `WP_PC_BLD_AcidGreatsword`      |       |
+| 29 | Live Puppet's Axe              | `WP_PC_BLD_GreatAxe`            |       |
+| 30 | Salamander Dagger              | `WP_PC_BLD_FlameDagger`         |       |
+| 31 | Fire Axe                       | `WP_PC_BLD_FireAxe`             |       |
+| 32 | Clock Sword                    | `WP_PC_BLD_ClockSword`          |       |
+| 33 | Circular Electric Chainsaw     | `WP_PC_BLD_ElectricCutter`      |       |
+| 34 | Cursed Knight's Halberd        | `WP_PC_BLD_Halberd`             |       |
+| 35 | Electric Coil Stick Head       | `WP_PC_BLD_CoilRod`             |       |
+| 36 | Carcass Crystal Axe            | `WP_PC_BLD_CrystalAxe`          |       |
+| 37 | Coil Mjolnir Head              | `WP_PC_BLD_ElectricHammer`      |       |
+| 38 | Krat Police Baton Head         | `WP_PC_BLD_Baton`               |       |
+| 39 | Tyrant Murderer's Dagger       | `WP_PC_BLD_Dagger`              |       |
+| 40 | Pistol Rock Drill              | `WP_PC_BLD_RockDrill`           |       |
+| 41 | Black Steel Cutter             | `WP_PC_BLD_FlameSword`          |       |
 
 ---
 

@@ -94,8 +94,8 @@ This is also true for special weapons that do not allow splitting the blade and 
 Which basically means that whenever you select a Item ID from this list, replace `BLD` in it with `HND` to get its corresponding Handle Part.
 </details>
 
-### DLC Weapons
-| Sl.| Weapon Name                   | Blade Part ID            | Notes |
+> ### DLC Weapons
+| Sl.| Weapon Name                   | Blade Item ID            | Type  |
 |----|-------------------------------|--------------------------|-------|
 | 1  | Pale Knight                   | `WP_PC_BLD_Gunblade`     | BOSS  |
 | 2  | Death's Talon                 | `WP_PC_BLD_IronClaw`     | BOSS  |
@@ -110,8 +110,8 @@ Which basically means that whenever you select a Item ID from this list, replace
 | 9  | Arche's Guardian              | `WP_PC_BLD_ThunderSword` |       |
 | 10 | Puppet of the Future's Welder | `WP_PC_BLD_FireRapier`   |       |
 
-### Base Game Weapons
-| Sl.| Weapon Name                    | Blade Part ID                   | Notes |
+> ### Base Game Weapons
+| Sl.| Weapon Name                    | Blade Item ID                   | Type  |
 |----|--------------------------------|---------------------------------|-------|
 | 1  | Seven-Coil Spring Sword        | `WP_PC_BLD_SevenSword`          | BOSS  |
 | 2  | Etiquette                      | `WP_PC_BLD_UmbrellaSword`       | BOSS  |
@@ -174,7 +174,84 @@ Which basically means that whenever you select a Item ID from this list, replace
 | `SlaveArm_Boomerang`        | Icarus           |
 | `SlaveArm_ChargeShotGun`    | Cataclysm        |
 ---
+
 ### 💝Amulets
+
+<details>
+<summary><strong>📝NOTE! Click to Expand</strong></summary>
+
+#### IMPORTANT! Given Item IDs in this category only give the base versions of the Amulets. 
+To get the +1/+2/+3 versions of the Amulets you need to append _1/_2/_3 respectively
+
+#### Example:
+> Item ID `AC_mgmt_equip_L1_1` will give the `Strength Amulet` <br>
+> Item ID `AC_mgmt_equip_L1_1_2` will give the `Strength Amulet+2` <br>
+> Item ID `AC_mgmt_equip_L1_1_3` will give the `Strength Amulet+3`
+>
+> Therefore to get a `Strength Amulet +3` the command is `OnGainItem AC_mgmt_equip_L1_1_3 1`
+
+Not all Amulets have a +1/+2/+3 version. Appending _1/_2/_3 to those Item IDs will create an invalid Item ID and give nothing.<br>
+I have written the max upgrade versions of upgradeable amulets in the `Max Lv` column.
+</details>
+
+> ### DLC Amulets
+| Sl.| Amulet Name              | Item ID          |Max Lv.|
+|----|--------------------------|------------------|-------|
+| 1  | Morbid Ambition's Amulet | `DLC_AC_Boss_01` |       |
+| 2  | Nightmare's Amulet       | `DLC_AC_Boss_02` |       |
+|||
+| 3  | Duelist's Amulet         | `DLC_AC_01`      |       |
+| 4  | Plundering Amulet        | `DLC_AC_03`      |       |
+| 5  | Survival Amulet          | `DLC_AC_02`      |       |
+| 6  | Solutionist's Amulet     | `DLC_AC_04`      |       |
+| 7  | Legion Amulet            | `DLC_AC_07`      |       |
+| 8  | Giant's Amulet           | `DLC_AC_08`      |       |
+| 9  | Shepherd's Amulet        | `DLC_AC_09`      |       |
+| 10 | Strategist's Amulet      | `DLC_AC_10`      |       |
+| 11 | Courage Amulet           | `DLC_AC_11`      |       |
+| 12 | Frenzied Amulet          | `DLC_AC_12`      | +1    |
+| 13 | Winter's Sleep Amulet    | `DLC_AC_13`      | +3    |
+| 14 | Whirlwind Amulet         | `DLC_AC_14`      |       |
+| 15 | Storyteller's Amulet     | `DLC_AC_15`      |       |
+| 16 | Tenacious Amulet         | `DLC_AC_16`      |       |
+
+> ### Base Game Amulets
+| Sl.| Amulet Name                   | Item ID               |Max Lv.|
+|----|-------------------------------|-----------------------|-------|
+| 1  | Dancing One's Amulet          | `AC_boss_L1_1`        |       |
+| 2  | Extreme Modification Amulet   | `AC_boss_L1_2`        |       |
+| 3  | Conquering Amulet             | `AC_resist_L3_9`      |       |
+| 4  | Nameless One's Amulet         | `AC_mgmt_stat_L2_6`   |       |
+| 5  | Triumvirate Amulet            | `AC_mgmt_equip_L3_10` |       |
+| 6  | Arm of God Amulet             | `AC_mgmt_equip_L3_11` |       |
+| 7  | Ghost Walk Amulet             | `AC_boss_L1_3`        |       |
+| 8  | Impregnable Fortress Amulet   | `AC_boss_L1_4`        |       |
+| 9  | Awakened God's Amulet         | `AC_boss_L1_5`        |       |
+| 10 | Piercing Hatred Amulet        | `AC_boss_L1_6`        |       |
+|||
+| 11 | Black Cat's Amulet            | `AC_def_L1_3`         |       |
+| 12 | Veteran's Amulet              | `AC_mgmt_stat_L2_5`   |       |
+| 13 | Red Fox's Amulet              | `AC_mgmt_equip_L2_4`  |       |
+| 14 | Assassin's Amulet             | `AC_atk_L2_4`         |       |
+| 15 | Swordsmanship Master's Amulet | `AC_mgmt_stat_L2_7`   |       |
+| 16 | Puppet Destroyer's Amulet     | `AC_atk_L2_3`         |       |
+| 17 | Carcass Butcher's Amulet      | `AC_atk_L2_1`         |       |
+| 18 | Murderer Puppet's Amulet      | `AC_atk_L2_2`         |       |
+|||
+| 19 | Blue Guardianship Amulet      | `AC_mgmt_stat_L1_10`  | +3    |
+| 20 | Strength Amulet               | `AC_mgmt_equip_L1_1`  | +3    |
+| 21 | Technique Amulet              | `AC_mgmt_equip_L1_2`  | +3    |
+| 22 | Transformation Amulet         | `AC_mgmt_equip_L1_3`  | +3    |
+|||
+| 23 | Leaping Amulet                | `AC_mgmt_stat_L1_3`   | +1    |
+| 24 | Indomitable Amulet            | `AC_resist_L2_1`      | +1    |
+| 25 | Hunter's Amulet               | `AC_mgmt_stat_L1_11`  | +1    |
+| 26 | Life Amulet                   | `AC_mgmt_stat_L1_1`   | +1    |
+| 27 | Carrier's Amulet              | `AC_mgmt_equip_L3_5`  | +1    |
+| 28 | Patience Amulet               | `AC_mgmt_stat_L2_9`   | +1    |
+| 29 | Recharged Amulet              | `AC_mgmt_stat_L2_8`   | +1    |
+| 30 | Iron Wall Amulet              | `AC_def_L3_1`         | +1    |
+
 ### 🛡Defense Parts
 ### 📀Records
 ### 🌙Upgrade Materials
@@ -191,5 +268,5 @@ Hope it’s as useful to others as it’s been for me. Happy spawning! 🎮
 ### 📈Future Plans
 - I plan to complete - Missing Item names & DLC Quest Items
 - I do not plan to complete - DLC Collectibles
-- Contributions via Pull Requests will be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!
+- If you want to expand the list or spot any mistakes, contributions via Pull Requests will be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!
 

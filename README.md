@@ -3,8 +3,8 @@
 _Every relic has a name. Every name has a code. Welcome to the vault._
 
 **This repository contains a categorized list of Item IDs used in-game. Click on the titles below to skip to a category:**
-> 🔑[Key Items](#key-items) 🔁[Exchange Materials](#exchange-materials) ⚔️[Weapons](#weapons) 🦾[Legion Arms](#legion-arms) 💝[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) <br>
-> 📀[Records](#records) 🌙[Upgrade Materials](#upgrade-materials) 💎[Ergo](#ergo) 🧥[Costumes](#costumes) 📜[Quest Items](#quest-items)
+> 🔧[Equipment](#equipment) ⚔️[Weapons(+Upgrades)](#weaponsupgrades) 🦾[Legion Arms(+Upgrades)](#legion-arms) ⚙️[Grindstones](#grindstones) 💝[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) 🔷[Wishstones](#wishstones)<br>
+> 🔑[Key Items](#key-items) 📀[Records](#records) 🌙[Upgrade Materials](#upgrade-materials) 💎[Ergo](#ergo) 🧥[Costumes](#costumes) 📜[Quest Items](#quest-items)
 ---
 
 ### ⚠️IMPORTANT: Read before proceeding
@@ -22,7 +22,7 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 ---
 
 ## So Without Further Ado...
-### ⚙️Equipment
+### 🔧Equipment
 > ### Basic Items
 | Sl.| Item Name                    | Item ID                           | Notes |
 |----|------------------------------|-----------------------------------|-------|
@@ -43,46 +43,9 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 | 11 | Overcharged Storage Battery  | `Collection_Core_Electronic`      |       |
 | 12 | High Powered Flame Amplifier | `Collection_Core_Fire`            |       |
 
-> ### Grindstones
-| Sl.| Item Name                    | Item ID                           | Notes |
-|----|------------------------------|-----------------------------------|-------|
-| 1  | Flame Grindstone             | `Grinder_Unit_01`                 |       |
-| 2  | Electric Blitz Grindstone    | `Grinder_Unit_02`                 |       |
-| 3  | Acid Grindstone              | `Grinder_Unit_03`                 |       |
-| 4  | Indomitable Grindstone       | `Grinder_Unit_04`                 |       |
-| 5  | Destruction Grindstone       | `Grinder_Unit_05`                 |       |
-| 6  | Satisfaction Grindstone      | `Grinder_Unit_06`                 |       |
-| 7  | Durability Grindstone        | `Grinder_Unit_07`                 |       |
-| 8  | Perfection Grindstone        | `Grinder_Unit_08`                 |       |
-| 9  | Cutting Grindstone           | `DLC_Grinder_Unit_01`             |DLC    |
-| 10 | Piercing Grindstone          | `DLC_Grinder_Unit_02`             |DLC    |
-
 ---
 
-### 🔁Exchange Materials
-| Sl.| Item Name                           | Item ID                       | Notes |
-|----|-------------------------------------|-------------------------------|-------|
-| 1  | Quartz                              | `Quartz`                      |       |
-|‎‎‎|||
-| 2  | Legion Plug                         | `Exchange_SlaveArm_Parts_4`   |       |
-| 3  | Genius' Legion Plug                 | `DLC_Exchange_SlaveArm_Parts` | DLC   |
-| 4  | Legion Caliber                      | `Reinforce_SlaveArm_G1`       |       |
-|‎‎‎|||
-| 5  | Motivity Crank                      | `Handle_InfusionStone_Type1`  |       |
-| 6  | Technique Crank                     | `Handle_InfusionStone_Type2`  |       |
-| 7  | Advance Crank                       | `Handle_InfusionStone_Type3`  |       |
-| 8  | Balance Crank                       | `Handle_InfusionStone_Type4`  |       |
-|‎‎‎|||
-| 9  | Hidden Moonstone                    | `Reinforce_Blade_Common_G1`   |       |
-| 10 | Crescent Moonstone                  | `Reinforce_Blade_Common_G2`   |       |
-| 11 | Half Moonstone                      | `Reinforce_Blade_Common_G3`   |       |
-| 12 | Full Moonstone                      | `Reinforce_Blade_Common_G4`   |       |
-| 13 | Dark moon Moonstone of the Covenant | `Reinforce_Hero_G1`           |       |
-| 14 | Full Moonstone of the Covenant      | `Reinforce_Hero_G2`           |       |
-
----
-
-### ⚔Weapons
+### ⚔Weapons(+Upgrades)
 
 <details>
 <summary><strong>📝NOTE! Click to Expand</strong></summary>
@@ -92,7 +55,7 @@ To get a Complete Weapon you need to get both the `Blade` and the `Handle` part 
 #### Command Syntax:
 > To get a complete weapon: `giveweapon <Handle ID> <Blade ID> <quantity>` <br>
 > To get a particular weapon part: `giveitem <Handle ID OR Blade ID> <quantity>`
-  
+
 #### Example:
 > Item ID `WP_PC_BLD_Saber` will give the `Puppet's Saber Blade` <br>
 > Item ID `WP_PC_HND_Saber` will give the `Puppet's Saber Handle`
@@ -174,9 +137,28 @@ Which basically means that whenever you select a Item ID from this list, replace
 | 40 | Pistol Rock Drill              | `WP_PC_BLD_RockDrill`           |       |
 | 41 | Black Steel Cutter             | `WP_PC_BLD_FlameSword`          |       |
 
+> ### Cranks
+| Sl.| Item Name                           | Item ID                      | Notes |
+|----|-------------------------------------|------------------------------|-------|
+| 1  | Motivity Crank                      | `Handle_InfusionStone_Type1` |       |
+| 2  | Technique Crank                     | `Handle_InfusionStone_Type2` |       |
+| 3  | Advance Crank                       | `Handle_InfusionStone_Type3` |       |
+| 4  | Balance Crank                       | `Handle_InfusionStone_Type4` |       |
+
+> ### Moonstones
+| Sl.| Item Name                           | Item ID                      | Notes |
+|----|-------------------------------------|------------------------------|-------|
+| 1  | Hidden Moonstone                    | `Reinforce_Blade_Common_G1`  |       |
+| 2  | Crescent Moonstone                  | `Reinforce_Blade_Common_G2`  |       |
+| 3  | Half Moonstone                      | `Reinforce_Blade_Common_G3`  |       |
+| 4  | Full Moonstone                      | `Reinforce_Blade_Common_G4`  |       |
+| 5  | Dark moon Moonstone of the Covenant | `Reinforce_Hero_G1`          |       |
+| 6  | Full Moonstone of the Covenant      | `Reinforce_Hero_G2`          |       |
+
 ---
 
 ### 🦾Legion Arms
+Little advice if you want multiple Legion Arms - Just get Legion Plugs in bulk and craft the Arms.
 > ### Arms
 | Sl.| Legion Arm        | Item ID                  | Notes |
 |----|-------------------|--------------------------|-------|
@@ -192,12 +174,29 @@ Which basically means that whenever you select a Item ID from this list, replace
 | 9  | Aegis             | `SlaveArm_Aegis`         |       |
 | 10 | Falcon Eyes       | `SlaveArm_SniperCannon`  |       |
 
-> ### Exchange Materials
+> ### Arm Upgrades
 | Sl.| Item Name                    | Item ID                           | Notes |
 |----|------------------------------|-----------------------------------|-------|
-|
-| 23 | Legion Plug                  | `Exchange_SlaveArm_Parts_4`       |       |
-| 24 | Genius' Legion Plug          | `DLC_Exchange_SlaveArm_Parts`     | DLC   |
+| 1  | Legion Caliber               | `Reinforce_SlaveArm_G1`           |       |
+| 2  | Legion Plug                  | `Exchange_SlaveArm_Parts_4`       |       |
+| 3  | Genius' Legion Plug          | `DLC_Exchange_SlaveArm_Parts`     | DLC   |
+
+---
+
+### ⚙Grindstones
+| Sl.| Item Name                    | Item ID                           | Notes |
+|----|------------------------------|-----------------------------------|-------|
+| 1  | Flame Grindstone             | `Grinder_Unit_01`                 |       |
+| 2  | Electric Blitz Grindstone    | `Grinder_Unit_02`                 |       |
+| 3  | Acid Grindstone              | `Grinder_Unit_03`                 |       |
+| 4  | Indomitable Grindstone       | `Grinder_Unit_04`                 |       |
+| 5  | Destruction Grindstone       | `Grinder_Unit_05`                 |       |
+| 6  | Satisfaction Grindstone      | `Grinder_Unit_06`                 |       |
+| 7  | Durability Grindstone        | `Grinder_Unit_07`                 |       |
+| 8  | Perfection Grindstone        | `Grinder_Unit_08`                 |       |
+| 9  | Cutting Grindstone           | `DLC_Grinder_Unit_01`             |DLC    |
+| 10 | Piercing Grindstone          | `DLC_Grinder_Unit_02`             |DLC    |
+
 ---
 
 ### 💝Amulets
@@ -277,7 +276,130 @@ I have written the max upgrade versions of upgradeable amulets in the `Max Lv` c
 | 29 | Recharged Amulet              | `AC_mgmt_stat_L2_8`   | +1    |
 | 30 | Iron Wall Amulet              | `AC_def_L3_1`         | +1    |
 
+---
+
 ### 🛡Defense Parts
+
+<details>
+<summary><strong>📝NOTE! Click to Expand</strong></summary>
+
+#### IMPORTANT! Given Item IDs in this category only give the base versions of the Defense Parts. 
+To get the +1/+2 versions of the Defense Parts you need to append _1/_2 respectively
+
+#### Example:
+> Item ID `part_assembly_curse_3` will give the `LADA Disruption Cartridge`
+>	Item ID `part_assembly_curse_3_2` will give the `LADA Disruption Cartridge+2`
+>
+> Therefore to get a `LADA Disruption Cartridge+2` the command is `OnGainItem part_assembly_curse_3_2 1`
+
+All Defense Parts except **DLC** and **Basic** have a +1/+2 version.
+</details>
+
+> ### One for All Parts
+| Sl.| Item Name                                              | Item ID                     | Notes |
+|----|--------------------------------------------------------|-----------------------------|-------|
+| 1  | Workshop Union Composite Armor Liner                   | `part_skin_all_4`           | DLC   |
+| 2  | Workshop Union Auto Adaptive Converter                 | `part_underskin_all_3`      | DLC   |
+| 3  | Workshop Union Finished Cartridge                      | `part_assembly_all_3`       | DLC   |
+||||
+| 4  | Workshop Union Basic Frame                             | `part_bone_00`              |BASIC  |
+| 5  | Workshop Union Certified Liner                         | `part_skin_strike_0`        |BASIC  |
+| 6  | Workshop Union Old Generation Converter                | `part_underskin_0`          |BASIC  |
+| 7  | Workshop Union Cartridge Prototype                     | `part_assembly_0`           |BASIC  |
+
+> ### Frames
+| Sl.| Item Name                                              | Item ID                     | Notes |
+|----|--------------------------------------------------------|-----------------------------|-------|
+| 1  | Workshop Union Lightweight Frame                       | `part_bone_0`               |       |
+| 2  | LADA F150 Frame                                        | `part_bone_1`               |       |
+| 3  | Workshop Union Strengthening Frame                     | `part_bone_2`               |       |
+| 4  | Arch Heavyweight Frame                                 | `part_bone_3`               |       |
+| 5  | LADA F250 Frame                                        | `part_bone_4`               |       |
+| 6  | Arch Extra Heavyweight Frame                           | `part_bone_5`               |       |
+| 7  | LADA F350 Frame                                        | `part_bone_6`               |       |
+
+> ### Liners
+| Sl.| Item Name                             | Item ID              | Notes |
+|----|---------------------------------------|----------------------|-------|
+| 1  | Workshop Union Fiber-Reinforced Liner | `part_skin_slash_1`  |       |
+| 2  | Belford Fiber-Reinforced Liner        | `part_skin_slash_2`  |       |
+| 3  | Arch Fiber-Reinforced Liner           | `part_skin_slash_3`  |       |
+| 4  | LADA Fiber-Reinforced Liner           | `part_skin_slash_4`  |       |
+||||
+| 5  | Workshop Union Spaced Armor Liner     | `part_skin_strike_1` |       |
+| 6  | Belford Spaced Armor Liner            | `part_skin_strike_2` |       |
+| 7  | Arch Spaced Armor Liner               | `part_skin_strike_3` |       |
+| 8  | LADA Spaced Armor Liner               | `part_skin_strike_4` |       |
+||||
+| 9  | Workshop Union Multi-Layer Liner      | `part_skin_pierce_1` |       |
+| 10 | Belford Multi-Layer Liner             | `part_skin_pierce_2` |       |
+| 11 | Arch Multi-Layer Liner                | `part_skin_pierce_3` |       |
+| 12 | LADA Multi-Layer Liner                | `part_skin_pierce_4` |       |
+
+> ### Converter
+|Sl.| Item Name                                              | Item ID                     | Notes |
+|---|--------------------------------------------------------|-----------------------------|-------|
+| 1 | Workshop Union Standard Radiation Converter            | `part_underskin_fire_1`     |       |
+| 2 | Belford Superior Radiation Converter                   | `part_underskin_fire_2`     |       |
+| 3 | LADA Large Capacity Radiation Converter                | `part_underskin_fire_3`     |       |
+||||
+| 4 | Workshop Union Standard Insulation Converter           | `part_underskin_electric_1` |       |
+| 5 | Belford Superior Insulation Converter                  | `part_underskin_electric_2` |       |
+| 6 | LADA Large Capacity Insulation Converter               | `part_underskin_electric_3` |       |
+||||
+| 7 | Workshop Union Standard Corrosion Resistance Converter | `part_underskin_acid_1`     |       |
+| 8 | Belford Superior Corrosion Resistance Converter        | `part_underskin_acid_2`     |       |
+| 9 | LADA Large Capacity Corrosion Resistance Converter     | `part_underskin_acid_3`     |       |
+
+> ### Cartridge
+|Sl.| Item Name                    | Item ID                  | Notes |
+|---|------------------------------|--------------------------|-------|
+| 1 | Belford Break Cartridge      | `part_assembly_break_1`  |       |
+| 2 | Arch Break Cartridge         | `part_assembly_break_2`  |       |
+| 3 | LADA Break Cartridge         | `part_assembly_break_3`  |       |
+||||
+| 4 | Belford Shock Cartridge      | `part_assembly_impact_1` |       |
+| 5 | Arch Shock Cartridge         | `part_assembly_impact_2` |       |
+| 6 | LADA Shock Cartridge         | `part_assembly_impact_3` |       |
+||||
+| 7 | Belford Disruption Cartridge | `part_assembly_curse_1`  |       |
+| 8 | Arch Disruption Cartridge    | `part_assembly_curse_2`  |       |
+| 9 | LADA Disruption Cartridge    | `part_assembly_curse_3`  |       |
+
+---
+
+### 🔷Wishstones
+| Sl.| Item Name             | Item ID         | Function                                                   |
+|----|-----------------------|-----------------|------------------------------------------------------------|
+| 1  | Recovery Wishstone    | `Monad_Unit_01` | Temporarily restores HP                                    |
+| 2  | Patience Wishstone    | `Monad_Unit_02` | Increases max Stamina over a set period of time            |
+| 3  | Advance Wishstone     | `Monad_Unit_03` | Temporarily restores Legion                                |
+| 4  | Friendship Wishstone  | `Monad_Unit_04` | Temporarily restores Specter HP                            |
+| 5  | Explosive Wishstone   | `Monad_Unit_05` | Explodes when Specter is hit                               |
+| 6  | Protection Wishstone  | `Monad_Unit_06` | Reduces Specter's received damage                          |
+| 7  | Frenzy Wishstone      | `Monad_Unit_07` | Increases Specter's destructive power                      |
+| 8  | Indomitable Wishstone | `Monad_Unit_08` | Specter avoids death once and HP is restored               |
+| 9  | Flame Wishstone       | `Monad_Unit_09` | Specter's Fire ATK/Reduces damage received                 |
+| 10 | Lightning Wishstone   | `Monad_Unit_10` | Specter's Electric Blitz ATK/Reduces damage received       |
+| 11 | Poison Wishstone      | `Monad_Unit_11` | Specter's Acid ATK/Reduces damage received                 |
+| 12 | Courage Wishstone     | `Monad_Unit_12` | Increases Fable's charge amount when attacking             |
+| 13 | Provocation Wishstone | `Monad_Unit_13` | Specter attracts enemy's attention/Reduces damage received |
+
+---
+
+### 🪞Special Items
+|Sl.| Item Name                     | Item ID             | Notes |
+|---|-------------------------------|---------------------|-------|
+| 1 | Quartz                        | `Quartz`            |       |
+||||
+| 2 | Star Fragment                 | `Helpmate_Material` |       |
+||||
+| 3 | Alchemical Booster            | `goldTree_Booster1` |       |
+| 4 | Stabilized Alchemical Booster | `goldTree_Booster2` |       |
+| 5 | Enhanced Alchemical Booster   | `goldTree_Booster3` |       |
+
+---
+
 ### 📀Records
 
 ### 💬Gestures
@@ -309,34 +431,6 @@ I have written the max upgrade versions of upgradeable amulets in the `Max Lv` c
 | 23 | Anger              | `Gesture_Anger`              |       |
 | 24 | Check Ground       | `Gesture_Interaction_Bottom` |       |
 | 25 | Happy              | `Gesture_Joy`                |       |
-
-### 🌙Upgrade Materials
-| Sl.| Item Name                           | Item ID                           | Notes |
-|----|-------------------------------------|-----------------------------------|-------|
-| 1  | Core                                | `P_Organ_CorePart`                |       |
-| 2  | Upgrade Core                        | `P_Organ_CorePart_Advance`        |       |
-| 3  | Enigma Assembly Tool                | `Weapon_combine`                  |       |
-| 4  | Grinder Modification Unit           | `Grinder_Unit_Unlock`             |       |
-| 5  | Overcharged Storage Battery         | `Collection_Core_Electronic`      |       |
-| 6  | High Powered Flame Amplifier        | `Collection_Core_Fire`            |       |
-|||
-| 7  | Quartz                              | `Quartz`                          |       |
-|||
-| 8  | Legion Plug                         | `Exchange_SlaveArm_Parts_4`       |       |
-| 9  | Genius' Legion Plug                 | `DLC_Exchange_SlaveArm_Parts`     | DLC   |
-| 10 | Legion Caliber                      | `Reinforce_SlaveArm_G1`           |       |
-|||
-| 11 | Motivity Crank                      | `Handle_InfusionStone_Type1`      |       |
-| 12 | Technique Crank                     | `Handle_InfusionStone_Type2`      |       |
-| 13 | Advance Crank                       | `Handle_InfusionStone_Type3`      |       |
-| 14 | Balance Crank                       | `Handle_InfusionStone_Type4`      |       |
-|||
-| 15 | Hidden Moonstone                    | `Reinforce_Blade_Common_G1`       |       |
-| 16 | Crescent Moonstone                  | `Reinforce_Blade_Common_G2`       |       |
-| 17 | Half Moonstone                      | `Reinforce_Blade_Common_G3`       |       |
-| 18 | Full Moonstone                      | `Reinforce_Blade_Common_G4`       |       |
-| 19 | Dark moon Moonstone of the Covenant | `Reinforce_Hero_G1`               |       |
-| 20 | Full Moonstone of the Covenant      | `Reinforce_Hero_G2`               |       |
 
 ---
 

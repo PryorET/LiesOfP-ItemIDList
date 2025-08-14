@@ -3,8 +3,9 @@
 _Every relic has a name. Every name has a code. Welcome to the vault._
 
 **This repository contains a categorized list of Item IDs used in-game. Click on the titles below to skip to a category:**
-> 🔧[Equipment](#equipment) ⚔️[Weapons(+Upgrades)](#weaponsupgrades) 🦾[Legion Arms(+Upgrades)](#legion-arms) ⚙️[Grindstones](#grindstones) 💝[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) 🔷[Wishstones](#wishstones)<br>
-> 🔑[Key Items](#key-items) 📀[Records](#records) 🌙[Upgrade Materials](#upgrade-materials) 💎[Ergo](#ergo) 🧥[Costumes](#costumes) 📜[Quest Items](#quest-items)
+> 🔧[Equipment](#equipment) ⚔️[Weapons(+Upgrades)](#weaponsupgrades) 🦾[Legion Arms(+Upgrades)](#legion-arms) <br>
+> ⚙️[Grindstones](#grindstones) 💝[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) 🔷[Wishstones](#wishstones)<br>
+> 🔑[Key Items](#key-items) 💿[Records](#records) 💎[Ergo](#ergo) 🥼[Costumes](#costumes) 📜[Quest Items](#quest-items)
 ---
 
 ### ⚠️IMPORTANT: Read before proceeding

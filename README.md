@@ -5,7 +5,8 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 **This repository contains a categorized list of Item IDs used in-game. Click on the titles below to skip to a category:**
 > 🔧[Equipment](#equipment) ⚔️[Weapons(+Upgrades)](#weaponsupgrades) 🦾[Legion Arms(+Upgrades)](#legion-arms) <br>
 > ⚙️[Grindstones](#grindstones) 💝[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) 🔷[Wishstones](#wishstones)<br>
-> 🔑[Key Items](#key-items) 💿[Records](#records) 💎[Ergo](#ergo) 🥼[Costumes](#costumes) 📜[Quest Items](#quest-items)
+> 🔑[Key Items](#key-items) ✨[Special Items](#special-items) 🧪[Consumables](consumables) 👜[Shops(+Currency)](#shopscurrency) 💎[Ergo](#ergo) 🧩[Cryptic Vessels](#cryptic-vessels)<br>
+> 💿[Records](#records) 💬[Gestures](#gestures) 🥼[Costumes](#costumes) 📜[Collectibles](#collectibles)
 ---
 
 ### ⚠️IMPORTANT: Read before proceeding
@@ -288,7 +289,7 @@ I have written the max upgrade versions of upgradeable amulets in the `Max Lv` c
 To get the +1/+2 versions of the Defense Parts you need to append _1/_2 respectively
 
 #### Example:
-> Item ID `part_assembly_curse_3` will give the `LADA Disruption Cartridge`
+> Item ID `part_assembly_curse_3` will give the `LADA Disruption Cartridge`<br>
 >	Item ID `part_assembly_curse_3_2` will give the `LADA Disruption Cartridge+2`
 >
 > Therefore to get a `LADA Disruption Cartridge+2` the command is `OnGainItem part_assembly_curse_3_2 1`
@@ -387,8 +388,10 @@ All Defense Parts except **DLC** and **Basic** have a +1/+2 version.
 | 13 | Provocation Wishstone | `Monad_Unit_13` | Specter attracts enemy's attention/Reduces damage received |
 
 ---
+### 🔑Key Items
+---
 
-### 🪞Special Items
+### ✨Special Items
 |Sl.| Item Name                     | Item ID             | Notes |
 |---|-------------------------------|---------------------|-------|
 | 1 | Quartz                        | `Quartz`            |       |
@@ -400,11 +403,16 @@ All Defense Parts except **DLC** and **Basic** have a +1/+2 version.
 | 5 | Enhanced Alchemical Booster   | `goldTree_Booster3` |       |
 
 ---
+### 🧪Consumables
+### 👜Shops(+Currency)
+### 💎Ergo
+### 🧩Cryptic Vessels
+### 💿Records
 
-### 📀Records
+---
 
 ### 💬Gestures
-| Sl.| Gesture            | Item ID                      | From  |
+| Sl.| Gesture            | Item ID                      | Note  |
 |----|--------------------|------------------------------|-------|
 | 1  | Play Dead          | `DLC_Gesture_FeignDeath`     | DLC   |
 | 2  | Shiver             | `DLC_Gesture_Shivering`      | DLC   |
@@ -451,10 +459,9 @@ All Defense Parts except **DLC** and **Basic** have a +1/+2 version.
 | 11 | Acid Canister             | `Consume_Area_acid`             |       |
 | 12 | Electric Blitz Canister   | `Consume_Area_Elec`             |       |
 
-### 💎Ergo
-
 ### 🧥Costumes
-### 📜Quest Items
+---
+### 📜Collectibles
 ---
 
 ### ✍️Creator Notes
@@ -464,6 +471,6 @@ Hope it’s as useful to others as it’s been for me. Happy spawning! 🎮
 
 ### 📈Future Plans
 - I plan to complete - Missing Item names & DLC Quest Items
-- I do not plan to complete - DLC Collectibles
+- I do not plan to complete - Collectibles
 - If you want to expand the list or spot any mistakes, contributions via Pull Requests will be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!
 

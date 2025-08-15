@@ -12,6 +12,7 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 ### ⚠️IMPORTANT: Read before proceeding
 - This list is **incomplete**, especially in the Quest Items section which only has base game items.
 - Some category headings have a note below them. Make sure to read it before using Item IDs from that category!
+- The Commands and Item IDs are tested in Game **version 1.8.0.0** with Overture DLC and Bonus Content installed.
 ---
 
 ### ⚙️Note on Commands
@@ -392,7 +393,9 @@ All Defense Parts except **DLC** and **Basic** have a +1/+2 version.
 ---
 ### 🔑Key Items
 ```
-I do not plan to curate and complete this section. I will be pasting the existing Base Game Item IDs as given in Narcoleptics ID List, but I will not improve it further neither will I add the DLC Items. Please contribute if you want to complete this section of the list.
+Coming Soon!
+I will be merging Recollections here and classify them into 3 Categories - Keys, Main Quest Items, Side Quest Items.
+Your patience is much appreciated! Till then refer to NarcolepticIBS' ID list (link at the bottom)
 ```
 ---
 
@@ -519,8 +522,8 @@ I do not plan to curate and complete this section. I will be pasting the existin
 > ### Hidden Ergo (Unobtainable without Commands)
 | Sl.| Ergo Crystal Name                    | Item ID              | Related Boss                                             |
 |----|--------------------------------------|----------------------|----------------------------------------------------------|
-| 13 | Brother Avenger's Ergo               | `CH09_Boss_Ergo`     | Black Rabbit Brotherhood                                 |
-| 14 | Sad Clown's Ergo                     | `CH11_Boss_Ergo`     | Corrupted Parade Master                                  |
+| 1  | Brother Avenger's Ergo               | `CH09_Boss_Ergo`     | Black Rabbit Brotherhood                                 |
+| 2  | Sad Clown's Ergo                     | `CH11_Boss_Ergo`     | Corrupted Parade Master                                  |
 
 ---
 
@@ -698,7 +701,7 @@ I do not plan to curate and complete this section. I will be pasting the existin
 ---
 ### 📜Collectibles
 ```
-I do not plan to curate and complete this section. I will be pasting the existing Base Game Item IDs as given in Narcoleptics ID List, but I will not improve it further neither will I add the DLC Items. Please contribute if you want to complete this section of the list.
+I do not plan to curate and complete this section. I will be pasting the existing Base Game Item IDs as given in NarcolepticIBS' ID List, but I will not improve it further neither will I add the DLC Items. Please contribute if you want to complete this section of the list.
 ```
 ---
 
@@ -708,7 +711,7 @@ So when I started digging for Item IDs myself, I figured I can build a fresh, up
 Hope it’s as useful to others as it’s been for me. Happy spawning! 🎮
 
 ### 📈Future Plans
-- I plan to complete - Missing Item names & DLC Quest Items
+- I plan to complete - DLC Key Items
 - I do not plan to complete - Collectibles
 - If you want to expand the list or spot any mistakes, contributions via Pull Requests will be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!
 

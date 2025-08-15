@@ -404,8 +404,100 @@ All Defense Parts except **DLC** and **Basic** have a +1/+2 version.
 
 ---
 ### 🧪Consumables
+> ### Consumable Items
+| Sl.| Item Name                      | Item ID                         | Notes |
+|----|--------------------------------|---------------------------------|-------|
+| 1  | Anti-Freeze Ampoule            | `Consume_CancelBuff_Frozen`     | DLC   |
+| 2  | Miraculous Enhancement Ampoule | `Consume_Buff_Body_Enhance`     | DLC   |
+| 3  | Miraculous Recovery Ampoule    | `Consume_Recovery_Full`         | DLC   |
+| 4  | Grindstone Coating Capsule     | `Consume_Recovery_Grinder`      | DLC   |
+| 5  | Gemini's Enhanced Detection    | `Consume_Buff_Gain_Exp`         | DLC   |
+||||
+| 6  | Gemini's Iron Protection       | `Consume_Drop_Ergo_save`        |       |
+| 7  | Recirculating Catalyst         | `Consume_Buff_stamina_regain`   |       |
+| 8  | Venigni's Urgent Repair Tool   | `Consume_Buff_sharpness_regain` |       |
+| 9  | Cat Dust                       | `Consume_cat_dust`              |       |
+||||
+| 10 | Fable Catalyst                 | `Consume_Buff_Frenzy`           |       |
+| 11 | Legion Magazine                | `Consume_Buff_SlaveMagazine`    |       |
+||||
+| 12 | Fire Abrasive                  | `Consume_Buff_sharpness_Fire`   |       |
+| 13 | Acid Abrasive                  | `Consume_Buff_sharpness_Acid`   |       |
+| 14 | Electric Blitz Abrasive        | `Consume_Buff_sharpness_Elec`   |       |
+||||
+| 15 | Attribute Resistance Ampoule   | `Consume_Buff_Elemental`        |       |
+| 16 | Attribute Purification Ampoule | `Consume_Cancel_Elemental`      |       |
+| 17 | Special Resistance Ampoule     | `Consume_Buff_Special`          |       |
+| 18 | Special Purification Ampoule   | `Consume_Cancel_Special`        |       |
+
+> ### Throwing Items
+| Sl.| Item Name                 | Item ID                         | Notes |
+|----|---------------------------|---------------------------------|-------|
+| 1  | Sawtoothed Wheel          | `Consume_Throw_Gear`            |       |
+| 2  | Saw Blade                 | `Consume_Throw_sawtooth`        |       |
+| 3  | Sharp Pipe                | `Consume_Throw_bignail`         |       |
+| 4  | Cluster Grenade           | `Consume_Throw_Granade_Cluster` |       |
+| 5  | Shot Put                  | `Consume_Throw_shotput`         |       |
+| 6  | Chain                     | `Consume_Throw_toughness_break` |       |
+||||
+| 7  | Throwing Cell             | `Consume_Throw_Granade_Elec`    |       |
+| 8  | Carcass Body Fluid Bottle | `Consume_Throw_Granade_Acid`    |       |
+| 9  | Thermite                  | `Consume_Throw_Granade_Fire`    |       |
+||||
+| 10 | Fire Canister             | `Consume_Area_Fire`             |       |
+| 11 | Acid Canister             | `Consume_Area_acid`             |       |
+| 12 | Electric Blitz Canister   | `Consume_Area_Elec`             |       |
+
+---
+
 ### 👜Shops(+Currency)
+> ### Shop Upgrades
+|Sl.| Item Name                     | Item ID                | Notes |
+|---|-------------------------------|------------------------|-------|
+| 1 | Krat Supply Box               | `Krat_BlackBox_2`      |       |
+| 2 | Sturdy Krat Supply Box        | `Krat_BlackBox_3`      |       |
+| 3 | Special Krat Supply Box       | `Krat_BlackBox_4`      |       |
+||||
+| 4 | Incredible Venigni Collection | `Venigni_BlackBox_2`   |       |
+| 5 | Fancy Venigni Collection      | `Venigni_BlackBox_3`   |       |
+| 6 | Great Venigni Collection      | `Venigni_BlackBox_4`   |       |
+||||
+| 7 | Klaus's Luxury Bag            | `DLC_Klaus_BlackBox_1` |       |
+| 8 | Klaus's Premium Luxury Bag    | `DLC_Klaus_BlackBox_2` |       |
+
+> ### Special Currency
+|Sl.| Item Name       | Item ID                | Notes |
+|---|-----------------|------------------------|-------|
+| 1 | Gold Coin Fruit | `Exchange_GoldenFruit` |       |
+| 2 | Ancient Disk    | `Exchange_SpecialCoin` |       |
+
+---
+
 ### 💎Ergo
+> ### Generic Hard Ergo
+| Sl.| Item Name                   | Item ID                       | Amount |
+|----|-----------------------------|-------------------------------|--------|
+| 1  | Dim Ergo Fragment           | `Consume_ProtectDropErgo_1`   | +100   |
+| 2  | Vivid Ergo Fragment         | `Consume_ProtectDropErgo_2`   | +300   |
+| 3  | Radiant Ergo Fragment       | `Consume_ProtectDropErgo_3`   | +500   |
+| 4  | Resplendent Ergo Fragment   | `Consume_ProtectDropErgo_4`   | +700   |
+| 5  | Dim Ergo Chunk              | `Consume_ProtectDropErgo_1M`  | +1000  |
+| 6  | Vivid Ergo Chunk            | `Consume_ProtectDropErgo_1MP` | +1500  |
+| 7  | Radiant Ergo Chunk          | `Consume_ProtectDropErgo_2M`  | +2000  |
+| 8  | Resplendent Ergo Chunk      | `Consume_ProtectDropErgo_3M`  | +3000  |
+| 9  | Dim Ergo Crystal            | `Consume_ProtectDropErgo_1L`  | +5000  |
+| 10 | Vivid Ergo Crystal          | `Consume_ProtectDropErgo_2L`  | +7000  |
+| 11 | Radiant Ergo Crystal        | `Consume_ProtectDropErgo_3L`  | +10000 |
+| 12 | Resplendent Ergo Crystal    | `Consume_ProtectDropErgo_4L`  | +15000 |
+| 13 | Ergo Crystal of the Eternal | `Consume_ProtectDropErgo_5L`  | +25000 |
+| 14 |                             | `Consume_ProtectDropErgo_6L`  | +35000 |
+| 15 |                             | `Consume_ProtectDropErgo_7L`  | +50000 |
+
+> ### Boss Ergo
+
+
+---
+
 ### 🧩Cryptic Vessels
 ### 💿Records
 
@@ -443,23 +535,9 @@ All Defense Parts except **DLC** and **Basic** have a +1/+2 version.
 
 ---
 
-### 🛞Throwables
-| Sl.| Item Name                 | Item ID                         | Notes |
-|----|---------------------------|---------------------------------|-------|
-| 1  | Sawtoothed Wheel          | `Consume_Throw_Gear`            |       |
-| 2  | Saw Blade                 | `Consume_Throw_sawtooth`        |       |
-| 3  | Sharp Pipe                | `Consume_Throw_bignail`         |       |
-| 4  | Cluster Grenade           | `Consume_Throw_Granade_Cluster` |       |
-| 5  | Shot Put                  | `Consume_Throw_shotput`         |       |
-| 6  | Chain                     | `Consume_Throw_toughness_break` |       |
-| 7  | Throwing Cell             | `Consume_Throw_Granade_Elec`    |       |
-| 8  | Carcass Body Fluid Bottle | `Consume_Throw_Granade_Acid`    |       |
-| 9  | Thermite                  | `Consume_Throw_Granade_Fire`    |       |
-| 10 | Fire Canister             | `Consume_Area_Fire`             |       |
-| 11 | Acid Canister             | `Consume_Area_acid`             |       |
-| 12 | Electric Blitz Canister   | `Consume_Area_Elec`             |       |
-
 ### 🧥Costumes
+
+
 ---
 ### 📜Collectibles
 ---

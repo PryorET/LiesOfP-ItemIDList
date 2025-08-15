@@ -197,6 +197,7 @@ Little advice if you want multiple Legion Arms - Just get Legion Plugs in bulk a
 | 6  | Satisfaction Grindstone      | `Grinder_Unit_06`                 |       |
 | 7  | Durability Grindstone        | `Grinder_Unit_07`                 |       |
 | 8  | Perfection Grindstone        | `Grinder_Unit_08`                 |       |
+||||
 | 9  | Cutting Grindstone           | `DLC_Grinder_Unit_01`             |DLC    |
 | 10 | Piercing Grindstone          | `DLC_Grinder_Unit_02`             |DLC    |
 
@@ -479,16 +480,18 @@ I do not plan to curate and complete this section. I will be pasting the existin
 
 ### 💎Ergo
 > ### Generic Hard Ergo
-| Sl.| Item Name                   | Item ID                       | Amount |
+| Sl.| Ergo Crystal Name           | Item ID                       | Amount |
 |----|-----------------------------|-------------------------------|--------|
 | 1  | Dim Ergo Fragment           | `Consume_ProtectDropErgo_1`   | +100   |
 | 2  | Vivid Ergo Fragment         | `Consume_ProtectDropErgo_2`   | +300   |
 | 3  | Radiant Ergo Fragment       | `Consume_ProtectDropErgo_3`   | +500   |
 | 4  | Resplendent Ergo Fragment   | `Consume_ProtectDropErgo_4`   | +700   |
+||||
 | 5  | Dim Ergo Chunk              | `Consume_ProtectDropErgo_1M`  | +1000  |
 | 6  | Vivid Ergo Chunk            | `Consume_ProtectDropErgo_1MP` | +1500  |
 | 7  | Radiant Ergo Chunk          | `Consume_ProtectDropErgo_2M`  | +2000  |
 | 8  | Resplendent Ergo Chunk      | `Consume_ProtectDropErgo_3M`  | +3000  |
+||||
 | 9  | Dim Ergo Crystal            | `Consume_ProtectDropErgo_1L`  | +5000  |
 | 10 | Vivid Ergo Crystal          | `Consume_ProtectDropErgo_2L`  | +7000  |
 | 11 | Radiant Ergo Crystal        | `Consume_ProtectDropErgo_3L`  | +10000 |
@@ -509,11 +512,15 @@ I do not plan to curate and complete this section. I will be pasting the existin
 | 7  | Burnt-White King's Ergo              | `CH06_Boss_Ergo`     | Romeo, King of Puppets                                   |
 | 8  | Reborn Champion's Ergo               | `CH07_Boss_Ergo`     | Champion Victor                                          |
 | 9  | Puppet-Devouring Green Hunter's Ergo | `CH08_Boss_Ergo`     | Puppet-Devouring Green Monster                           |
-| 10 | Brother Avenger's Ergo               | `CH09_Boss_Ergo`     | Black Rabbit Brotherhood (Unobtainable without Commands) |
-| 11 | Sad Clown's Ergo                     | `CH11_Boss_Ergo`     | Corrupted Parade Master (Unobtainable without Commands)  |
-| 12 | Sad Zealot's Ergo                    | `CH12_Boss_Ergo`     | Laxasia the Complete                                     |
-| 13 | Fallen One's Ergo                    | `CH13_Boss_Ergo`     | Simon Manus, Awakened God                                |
-| 14 | Nameless Puppet's Ergo               | `CH00_Boss_Ergo`     | Nameless Puppet                                          |
+| 10 | Sad Zealot's Ergo                    | `CH12_Boss_Ergo`     | Laxasia the Complete                                     |
+| 11 | Fallen One's Ergo                    | `CH13_Boss_Ergo`     | Simon Manus, Awakened God                                |
+| 12 | Nameless Puppet's Ergo               | `CH00_Boss_Ergo`     | Nameless Puppet                                          |
+
+> ### Hidden Ergo (Unobtainable without Commands)
+| Sl.| Ergo Crystal Name                    | Item ID              | Related Boss                                             |
+|----|--------------------------------------|----------------------|----------------------------------------------------------|
+| 13 | Brother Avenger's Ergo               | `CH09_Boss_Ergo`     | Black Rabbit Brotherhood                                 |
+| 14 | Sad Clown's Ergo                     | `CH11_Boss_Ergo`     | Corrupted Parade Master                                  |
 
 ---
 
@@ -552,6 +559,7 @@ I do not plan to curate and complete this section. I will be pasting the existin
 | 9  | Quixotic                              | `Collection_Record_9`         |       |
 | 10 | Why                                   | `Collection_Record_11`        |       |
 | 11 | Proposal, Flower, Wolf Part 1         | `Collection_Record_10_Normal` |       |
+||||
 | 12 | Shadow Flower                         | `Collection_Record_1_Golden`  |GOLDEN |
 | 13 | Quixotic                              | `Collection_Record_2_Golden`  |GOLDEN |
 | 14 | Fascination                           | `Collection_Record_3_Golden`  |GOLDEN |
@@ -565,6 +573,7 @@ I do not plan to curate and complete this section. I will be pasting the existin
 | 2 | SURVIVOR                   | `DLC_Collection_Record_2` |       |
 | 3 | Nightmare                  | `DLC_Collection_Record_3` |       |
 | 4 | The Clear Blue Sky         | `DLC_Collection_Record_4` |       |
+||||
 | 5 | The Clear Blue Sky         | `DLC_Collection_Record_5` |GOLDEN |
 | 6 | Lisrim                     | `DLC_Collection_Record_6` |GOLDEN |
 | 7 | SURVIVOR                   | `DLC_Collection_Record_7` |RED    |
@@ -605,14 +614,96 @@ I do not plan to curate and complete this section. I will be pasting the existin
 ---
 
 ### 🧥Costumes
+> ### Body
+| Sl.| Item Name                          | Item ID                          | Type  |
+|----|------------------------------------|----------------------------------|-------|
+| 1  | Treasure Hunter's Hunting Apparel  | `Costume_Alidoro`                | BONUS |
+| 2  | Armor of the Honorable             | `Costume_GuanYu`                 | BONUS |
+||||
+| 3  | Winter's Hunting Apparel           | `DLC_Costume_WarmSuit`           | DLC   |
+| 4  | Reddened Tailcoat                  | `DLC_Costume_Romeo`              | DLC   |
+| 5  | Blue Sheep's Battle Apparel        | `DLC_Costume_Stalker_Goat`       | DLC   |
+| 6  | Golden Snail's Tailcoat            | `DLC_Costume_Stalker_Snail`      | DLC   |
+| 7  | Famed Detective's Coat             | `DLC_Costume_Detective`          | DLC   |
+| 8  | Black Death's Protective Apparel   | `DLC_Costume_Rabbit1`            | DLC   |
+| 9  | Blazing Death's Hunting Apparel    | `DLC_Costume_Rabbit2`            | DLC   |
+| 10 | Piercing Death's Hunting Apparel   | `DLC_Costume_Rabbit3`            | DLC   |
+| 11 | Permeating Death's Hunting Apparel | `DLC_Costume_Rabbit4`            | DLC   |
+| 12 | Leader's Battle Apparel            | `DLC_Costume_Lea`                | DLC   |
+||||
+| 13 | White Shirt                        | `Costume_01`                     |       |
+| 14 | Blue Blood's Tailcoat              | `Costume_02`                     |       |
+| 15 | Workshop Master's Workwear         | `Costume_03`                     |       |
+| 16 | Workshop Master's Workwear         | `Costume_Factory_Meister`        |       |
+| 17 | Mischievous Puppet's Clothes       | `Costume_Naughty_Boy`            |       |
+| 18 | Someone's Memory                   | `Costume_Someone_Memory`         |       |
+| 19 | Puppet Prince's Formal Dress       | `Costume_Prince_Robes`           |       |
+| 20 | Alchemist's Cape                   | `Costume_Alchemist_Cape`         |       |
+| 21 | The Great Venigni's Signature Coat | `Costume_Venigni_Coat`           |       |
+| 22 | Monster Sweeper's Hunting Apparel  | `Costume_Stalker_Monster_Hunter` |       |
+| 23 | Mad Donkey's Hunting Apparel       | `Costume_Stalker_Madman`         |       |
+| 24 | Survivor's Hunting Apparel         | `Costume_Stalker_Survivor`       |       |
+| 25 | Black Cat's Hunting Apparel        | `Costume_Stalker_Cat`            |       |
+| 26 | The Atoned's Hunting Apparel       | `Costume_Stalker_Pilgrim`        |       |
+| 27 | Robber Weasel's Hunting Apparel    | `Costume_Stalker_Weasel`         |       |
+| 28 | Red Fox's Hunting Apparel          | `Costume_Stalker_Fox`            |       |
+| 29 | Owl Doctor's Hunting Apparel       | `Costume_Stalker_Army_Surgeon`   |       |
+| 30 | The White Lady's Hunting Apparel   | `Costume_Stalker_WhiteLady`      |       |
 
+> ### Masks and Hats
+| Sl.| Item Name                                     | Item ID                        | Type  |
+|----|-----------------------------------------------|--------------------------------|-------|
+| 1  | Treasure Hunter's Mask                        | `HatCostume_Alidoro`           | BONUS |
+| 2  | Bandana of the Honorable                      | `HatCostume_GuanYu`            | BONUS |
+| 3  | Alchemist's Hat                               | `HatCostume_AlchemistHat`      | BONUS |
+| 4  | Winter Festival Peaked Hat                    | `HatCostume_RedHat`            | BONUS |
+| 5  | Earnest Reindeer's Antlers                    | `HatCostume_ReindeerHorn`      | BONUS |
+||||
+| 6  | Winter's Hunting Hat                          | `DLC_HatCostume_WarmSuit`      | DLC   |
+| 7  | Blue Sheep's Mask                             | `DLC_HatCostume_Stalker_Goat`  | DLC   |
+| 8  | Golden Snail's Mask                           | `DLC_HatCostume_Stalker_Snail` | DLC   |
+| 9  | Puppet Prince's Imperial Crown                | `DLC_HatCostume_Prince_Crown`  | DLC   |
+| 10 | Famed Detective's Hat                         | `DLC_HatCostume_Detective`     | DLC   |
+| 11 | The Eldest's Gas Mask                         | `DLC_HatCostume_Rabbit1`       | DLC   |
+| 12 | The Battle Maniac's Mask                      | `DLC_HatCostume_Rabbit2`       | DLC   |
+| 13 | The Eccentric's Mask                          | `DLC_HatCostume_Rabbit3`       | DLC   |
+| 14 | The Youngest's Mask                           | `DLC_HatCostume_Rabbit4`       | DLC   |
+| 15 | Leader's Mask                                 | `DLC_HatCostume_Lea`           | DLC   |
+||||
+| 16 | Mask Worn by those Preparing for the Festival | `Mask_Festival_Eve`            |       |
+| 17 | Mad Donkey's Mask                             | `Mask_Stalker_Madman`          |       |
+| 18 | Survivor's Mask                               | `Mask_Stalker_Survivor`        |       |
+| 19 | Black Cat's Mask                              | `Mask_Stalker_Cat`             |       |
+| 20 | The Atoned's Mask                             | `Mask_Stalker_Pilgrim`         |       |
+| 21 | Robber Weasel's Mask                          | `Mask_Stalker_Weasel`          |       |
+| 22 | Red Fox's Mask                                | `Mask_Stalker_Fox`             |       |
+| 23 | Owl Doctor's Mask                             | `Mask_Stalker_ArmySurgeon`     |       |
+| 24 | The White Lady's Mask                         | `Mask_Stalker_WhiteLady`       |       |
+
+> ### Accessories
+|Sl.| Item Name                       | Item ID                       | Type  |
+|---|---------------------------------|-------------------------------|-------|
+| 1 | Illusory Emerald Glasses        | `Head_Glassess_Emerald`       | BONUS |
+| 2 | Midwinter Nights Red Nose       | `Head_Glassess_RudolfNose`    | BONUS |
+| 3 | The Great Venigni's Glasses     | `Head_Glassess_Venigni2`      | BONUS |
+||||
+| 4 | Great Adventure Mask            | `DLC_Head_Glassess_Zoo`       | DLC   |
+| 5 | Veteran's Eyepatch              | `DLC_Head_Glassess_Eyepatch`  | DLC   |
+| 6 | Famous Detective's Mustache     | `DLC_Head_Glassess_Detective` | DLC   |
+| 7 | Genius Meister's Monocle        | `DLC_Head_Glassess_Monocle`   | DLC   |
+||||
+| 8 | Mischievous Puppet's Parade Hat | `Head_Naughty_Boy`            |       |
+| 9 | The Great Venigni's Glasses     | `Head_Glassess_Venigni`       |       |
 
 ---
 ### 📜Collectibles
+```
+I do not plan to curate and complete this section. I will be pasting the existing Base Game Item IDs as given in Narcoleptics ID List, but I will not improve it further neither will I add the DLC Items. Please contribute if you want to complete this section of the list.
+```
 ---
 
 ### ✍️Creator Notes
-This list primarily is for players who aren’t deep in the modding or game-unpacking scene but still want to spawn items in-game. Before the Overture DLC, [this list](https://fearlessrevolution.com/viewtopic.php?p=317058#p317058) by [NarcolepticIBS](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=170917&sid=b8be7d1e0c54b7505bfc7fd4f9a6fb06) was the go-to resource — but it never got updated after the DLC dropped.<br>
+This list primarily is for players who aren’t deep in the modding or game-unpacking scene but still want to spawn items in-game. Before the Overture DLC, [this list](https://fearlessrevolution.com/viewtopic.php?p=317058#p317058) by [NarcolepticIBS](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=170917&sid=b8be7d1e0c54b7505bfc7fd4f9a6fb06) was the go-to resource — but it never got updated after the DLC dropped. It also lacks some stuff like Cryptic Vessels & Bonus Costumes.<br>
 So when I started digging for Item IDs myself, I figured I can build a fresh, updated, centralized version. And host it on Github so others can contribute.<br>
 Hope it’s as useful to others as it’s been for me. Happy spawning! 🎮
 

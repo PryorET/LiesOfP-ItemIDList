@@ -55,14 +55,14 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 #### IMPORTANT! Given Item IDs in this category **do not give the entire weapon** but only the `Blade` part of the weapon. 
 To get a Complete Weapon you need to get both the `Blade` and the `Handle` part of the weapon. For every weapon the blade part is represented by `BLD` and the handle part is represented by `HND` in the Item ID.
 #### Command Syntax:
-> To get a complete weapon: `giveweapon <Handle ID> <Blade ID> <quantity>` <br>
-> To get a particular weapon part: `giveitem <Handle ID OR Blade ID> <quantity>`
+> To get a complete weapon: `OnGiveWeapon <Handle ID> <Blade ID> <upgrade level>` <br>
+> To get a particular weapon part: `OnGiveWeapon <Handle ID OR Blade ID> <upgrade level>`
 
 #### Example:
 > Item ID `WP_PC_BLD_Saber` will give the `Puppet's Saber Blade` <br>
 > Item ID `WP_PC_HND_Saber` will give the `Puppet's Saber Handle`
 > 
-> Therefore to get a complete Puppets Saber the command is: `giveweapon WP_PC_HND_Saber WP_PC_BLD_Saber 1`
+> Therefore to get a complete Puppets Saber the command is: `OnGiveWeapon WP_PC_HND_Saber WP_PC_BLD_Saber`
 
 This is also true for special weapons that do not allow splitting the blade and the handle. But using commands it is possible to get only one part thus allowing Weapon Assembly with special weapon parts too.
 
@@ -70,9 +70,10 @@ This is also true for special weapons that do not allow splitting the blade and 
 >	Item ID `WP_PC_BLD_RoseSword` will give the `Monad's Sword` _(The name will be `Monad's Sword` but it will only be the Blade)_ <br>
 > Item ID `WP_PC_HND_RoseSword` will give the `Monad's Sword` _(The name will be `Monad's Sword` but it will only be the Handle)_
 >
->	Therefore to get a complete Monads Sword the command is: `giveweapon WP_PC_HND_RoseSword WP_PC_BLD_RoseSword 1`
+>	Therefore to get a complete Monads Sword the command is: `OnGiveWeapon WP_PC_HND_RoseSword WP_PC_BLD_RoseSword`
 
 Which basically means that whenever you select a Item ID from this list, replace `BLD` in it with `HND` to get its corresponding Handle Part.
+Additionally, command to give a `Monad's Sword +5` will be `OnGiveWeapon WP_PC_HND_RoseSword WP_PC_BLD_RoseSword 4`
 </details>
 
 > ### DLC Weapons
@@ -389,6 +390,9 @@ All Defense Parts except **DLC** and **Basic** have a +1/+2 version.
 
 ---
 ### 🔑Key Items
+```
+I do not plan to curate and complete this section. I will be pasting the existing Base Game Item IDs as given in Narcoleptics ID List, but I will not improve it further neither will I add the DLC Items. Please contribute if you want to complete this section of the list.
+```
 ---
 
 ### ✨Special Items
@@ -490,16 +494,81 @@ All Defense Parts except **DLC** and **Basic** have a +1/+2 version.
 | 11 | Radiant Ergo Crystal        | `Consume_ProtectDropErgo_3L`  | +10000 |
 | 12 | Resplendent Ergo Crystal    | `Consume_ProtectDropErgo_4L`  | +15000 |
 | 13 | Ergo Crystal of the Eternal | `Consume_ProtectDropErgo_5L`  | +25000 |
-| 14 |                             | `Consume_ProtectDropErgo_6L`  | +35000 |
-| 15 |                             | `Consume_ProtectDropErgo_7L`  | +50000 |
+| 14 | Angel's Ergo Crystal        | `Consume_ProtectDropErgo_6L`  | +35000 |
+| 15 | Forgotten God's Ergo Crystal| `Consume_ProtectDropErgo_7L`  | +50000 |
 
 > ### Boss Ergo
-
+| Sl.| Ergo Crystal Name                    | Item ID              | Related Boss                                             |
+|----|--------------------------------------|----------------------|----------------------------------------------------------|
+| 1  | Macabre Puppeteer's Ergo             | `DLC_CH01_Boss_Ergo` | Markiona, Puppeteer of Death                             |
+| 2  | Tortured Guardian's Ergo             | `DLC_CH03_Boss_Ergo` | Anguished Guardian of the Ruins                          |
+| 3  | Parade Leader's Ergo                 | `CH01_Boss_Ergo`     | Parade Master                                            |
+| 4  | Broken Hero's Ergo                   | `CH02_Boss_Ergo`     | Scrapped Watchman                                        |
+| 5  | King's Flame Ergo                    | `CH03_Boss_Ergo`     | King's Flame, Fuoco                                      |
+| 6  | Twisted Angel's Ergo                 | `CH04_Boss_Ergo`     | Fallen Archbishop Andreus                                |
+| 7  | Burnt-White King's Ergo              | `CH06_Boss_Ergo`     | Romeo, King of Puppets                                   |
+| 8  | Reborn Champion's Ergo               | `CH07_Boss_Ergo`     | Champion Victor                                          |
+| 9  | Puppet-Devouring Green Hunter's Ergo | `CH08_Boss_Ergo`     | Puppet-Devouring Green Monster                           |
+| 10 | Brother Avenger's Ergo               | `CH09_Boss_Ergo`     | Black Rabbit Brotherhood (Unobtainable without Commands) |
+| 11 | Sad Clown's Ergo                     | `CH11_Boss_Ergo`     | Corrupted Parade Master (Unobtainable without Commands)  |
+| 12 | Sad Zealot's Ergo                    | `CH12_Boss_Ergo`     | Laxasia the Complete                                     |
+| 13 | Fallen One's Ergo                    | `CH13_Boss_Ergo`     | Simon Manus, Awakened God                                |
+| 14 | Nameless Puppet's Ergo               | `CH00_Boss_Ergo`     | Nameless Puppet                                          |
 
 ---
 
-### 🧩Cryptic Vessels
+### 🧩Encoded Messages
+> ### Cryptic Vessels
+|Sl.| Item Name                 | Item ID                                    | Notes |
+|---|---------------------------|--------------------------------------------|-------|
+| 1 | Crafted Cryptic Vessel    | `Collection_Dottedpaper_01`                |       |
+| 2 | Jeweled Cryptic Vessel    | `Collection_Dottedpaper_02`                |       |
+| 3 | Old Cryptic Vessel        | `Collection_Dottedpaper_03`                |       |
+| 4 | Rusty Cryptic Vessel      | `Collection_Dottedpaper_04`                |       |
+| 5 | Mechanical Cryptic Vessel | `Collection_Dottedpaper_05`                |       |
+| 6 | Alidoro's Cryptic Vessel  | `Collection_Dottedpaper_06`                |       |
+
+> ### Cipher Machines
+|Sl.| Item Name                 | Item ID                                    | Notes |
+|---|---------------------------|--------------------------------------------|-------|
+| 1 | Bloody Cipher Machine     | `DLC_Collection_Letter_StrangeStory_01_01` |DLC    |
+| 2 | Corroded Cipher Machine   | `DLC_Collection_Letter_StrangeStory_02_01` |DLC    |
+| 3 | Frosted Cipher Machine    | `DLC_Collection_Letter_StrangeStory_03_01` |DLC    |
+
+---
+
 ### 💿Records
+> ### Base Game Records
+| Sl.| Item Name                             | Item ID                       | Type  |
+|----|---------------------------------------|-------------------------------|-------|
+| 1  | Shadow Flower                         | `Collection_Record_1`         |       |
+| 2  | Misty E'ra                            | `Collection_Record_2`         |       |
+| 3  | Fascination                           | `Collection_Record_3`         |       |
+| 4  | Feel                                  | `Collection_Record_4`         |       |
+| 5  | Someday                               | `Collection_Record_5`         |       |
+| 6  | Divine Service                        | `Collection_Record_6`         |       |
+| 7  | Far East Princess                     | `Collection_Record_7`         |       |
+| 8  | Memory of Beach                       | `Collection_Record_8`         |       |
+| 9  | Quixotic                              | `Collection_Record_9`         |       |
+| 10 | Why                                   | `Collection_Record_11`        |       |
+| 11 | Proposal, Flower, Wolf Part 1         | `Collection_Record_10_Normal` |       |
+| 12 | Shadow Flower                         | `Collection_Record_1_Golden`  |GOLDEN |
+| 13 | Quixotic                              | `Collection_Record_2_Golden`  |GOLDEN |
+| 14 | Fascination                           | `Collection_Record_3_Golden`  |GOLDEN |
+| 15 | Memory of Beach                       | `Collection_Record_8_Golden`  |GOLDEN |
+| 16 | Proposal, Flower, Wolf Part 1         | `Collection_Record_10`        |GOLDEN |
+
+> ### DLC Records
+|Sl.| Item Name                  | Item ID                   | Type  |
+|---|----------------------------|---------------------------|-------|
+| 1 | Lisrim                     | `DLC_Collection_Record_1` |       |
+| 2 | SURVIVOR                   | `DLC_Collection_Record_2` |       |
+| 3 | Nightmare                  | `DLC_Collection_Record_3` |       |
+| 4 | The Clear Blue Sky         | `DLC_Collection_Record_4` |       |
+| 5 | The Clear Blue Sky         | `DLC_Collection_Record_5` |GOLDEN |
+| 6 | Lisrim                     | `DLC_Collection_Record_6` |GOLDEN |
+| 7 | SURVIVOR                   | `DLC_Collection_Record_7` |RED    |
+| 8 | Nightmare                  | `DLC_Collection_Record_8` |GOLDEN |
 
 ---
 

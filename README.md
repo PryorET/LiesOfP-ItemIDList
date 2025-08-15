@@ -5,7 +5,7 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 **This repository contains a categorized list of Item IDs used in-game. Click on the titles below to skip to a category:**
 > 🔧[Equipment](#equipment) ⚔️[Weapons(+Upgrades)](#weaponsupgrades) 🦾[Legion Arms(+Upgrades)](#legion-arms) <br>
 > ⚙️[Grindstones](#grindstones) 💝[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) 🔷[Wishstones](#wishstones)<br>
-> 🔑[Key Items](#key-items) ✨[Special Items](#special-items) 🧪[Consumables](consumables) 👜[Shops(+Currency)](#shopscurrency) 💎[Ergo](#ergo) 🧩[Cryptic Vessels](#cryptic-vessels)<br>
+> 🔑[Key Items](#key-items) ✨[Special Items](#special-items) 🧪[Consumables](consumables) 👜[Shops(+Currency)](#shopscurrency) 💎[Ergo](#ergo) 🧩[Encoded Messages](#encoded-messages)<br>
 > 💿[Records](#records) 💬[Gestures](#gestures) 🥼[Costumes](#costumes) 📜[Collectibles](#collectibles)
 ---
 
@@ -701,7 +701,9 @@ Your patience is much appreciated! Till then refer to NarcolepticIBS' ID list (l
 ---
 ### 📜Collectibles
 ```
-I do not plan to curate and complete this section. I will be pasting the existing Base Game Item IDs as given in NarcolepticIBS' ID List, but I will not improve it further neither will I add the DLC Items. Please contribute if you want to complete this section of the list.
+I do not plan to curate and complete this section!
+I will be format and paste the existing Base Game Item IDs in NarcolepticIBS' ID List, but I will not categorize it or add the DLC Items.
+Please contribute if you want to complete this section of the list.
 ```
 ---
 
@@ -714,4 +716,3 @@ Hope it’s as useful to others as it’s been for me. Happy spawning! 🎮
 - I plan to complete - DLC Key Items
 - I do not plan to complete - Collectibles
 - If you want to expand the list or spot any mistakes, contributions via Pull Requests will be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!
-

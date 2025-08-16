@@ -715,8 +715,8 @@ Hope it’s as useful to others as it’s been for me. Happy spawning! 🎮
 ### 📈Future Plans
 - I plan to complete - DLC Key Items
 - I do not plan to complete - Collectibles
-- If you have suggestions or spot any mistakes, please report it via the [issue tracker](github.com/PryorET/LiesOfP-ItemIDList)! Contributions via Pull Requests will also be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!
-  
+- If you have suggestions or spot any mistakes, please report it via the [issue tracker](https://github.com/PryorET/LiesOfP-ItemIDList/issues)! Contributions via Pull Requests will also be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!
+
 ---
 
 ### ☕ Support

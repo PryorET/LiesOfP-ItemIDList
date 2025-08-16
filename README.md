@@ -10,7 +10,7 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 ---
 
 ### ⚠️IMPORTANT: Read before proceeding
-- This list is **incomplete**, especially in the Quest Items section which only has base game items.
+- This list is **incomplete**, especially in the Key Items section which is still under construction.
 - Some category headings have a note below them. Make sure to read it before using Item IDs from that category!
 - The Commands and Item IDs are tested in Game **version 1.8.0.0** with Overture DLC and Bonus Content installed.
 ---
@@ -73,7 +73,7 @@ This is also true for special weapons that do not allow splitting the blade and 
 >
 >	Therefore to get a complete Monads Sword the command is: `OnGiveWeapon WP_PC_HND_RoseSword WP_PC_BLD_RoseSword`
 
-Which basically means that whenever you select a Item ID from this list, replace `BLD` in it with `HND` to get its corresponding Handle Part.
+Which basically means that whenever you select a Item ID from this list, replace `BLD` in it with `HND` to get its corresponding Handle Part.<br>
 Additionally, command to give a `Monad's Sword +5` will be `OnGiveWeapon WP_PC_HND_RoseSword WP_PC_BLD_RoseSword 4`
 </details>
 
@@ -506,18 +506,18 @@ Your patience is much appreciated! Till then refer to NarcolepticIBS' ID list (l
 > ### Boss Ergo
 | Sl.| Ergo Crystal Name                    | Item ID              | Related Boss                                             |
 |----|--------------------------------------|----------------------|----------------------------------------------------------|
-| 1  | Macabre Puppeteer's Ergo             | `DLC_CH01_Boss_Ergo` | Markiona, Puppeteer of Death                             |
-| 2  | Tortured Guardian's Ergo             | `DLC_CH03_Boss_Ergo` | Anguished Guardian of the Ruins                          |
-| 3  | Parade Leader's Ergo                 | `CH01_Boss_Ergo`     | Parade Master                                            |
-| 4  | Broken Hero's Ergo                   | `CH02_Boss_Ergo`     | Scrapped Watchman                                        |
-| 5  | King's Flame Ergo                    | `CH03_Boss_Ergo`     | King's Flame, Fuoco                                      |
-| 6  | Twisted Angel's Ergo                 | `CH04_Boss_Ergo`     | Fallen Archbishop Andreus                                |
-| 7  | Burnt-White King's Ergo              | `CH06_Boss_Ergo`     | Romeo, King of Puppets                                   |
-| 8  | Reborn Champion's Ergo               | `CH07_Boss_Ergo`     | Champion Victor                                          |
-| 9  | Puppet-Devouring Green Hunter's Ergo | `CH08_Boss_Ergo`     | Puppet-Devouring Green Monster                           |
-| 10 | Sad Zealot's Ergo                    | `CH12_Boss_Ergo`     | Laxasia the Complete                                     |
-| 11 | Fallen One's Ergo                    | `CH13_Boss_Ergo`     | Simon Manus, Awakened God                                |
-| 12 | Nameless Puppet's Ergo               | `CH00_Boss_Ergo`     | Nameless Puppet                                          |
+| 1  | Parade Leader's Ergo                 | `CH01_Boss_Ergo`     | Parade Master                                            |
+| 2  | Broken Hero's Ergo                   | `CH02_Boss_Ergo`     | Scrapped Watchman                                        |
+| 3  | King's Flame Ergo                    | `CH03_Boss_Ergo`     | King's Flame, Fuoco                                      |
+| 4  | Twisted Angel's Ergo                 | `CH04_Boss_Ergo`     | Fallen Archbishop Andreus                                |
+| 5  | Burnt-White King's Ergo              | `CH06_Boss_Ergo`     | Romeo, King of Puppets                                   |
+| 6  | Reborn Champion's Ergo               | `CH07_Boss_Ergo`     | Champion Victor                                          |
+| 7  | Puppet-Devouring Green Hunter's Ergo | `CH08_Boss_Ergo`     | Puppet-Devouring Green Monster                           |
+| 8  | Sad Zealot's Ergo                    | `CH12_Boss_Ergo`     | Laxasia the Complete                                     |
+| 9  | Fallen One's Ergo                    | `CH13_Boss_Ergo`     | Simon Manus, Awakened God                                |
+| 10 | Nameless Puppet's Ergo               | `CH00_Boss_Ergo`     | Nameless Puppet                                          |
+| 11 | Macabre Puppeteer's Ergo             | `DLC_CH01_Boss_Ergo` | Markiona, Puppeteer of Death                             |
+| 12 | Tortured Guardian's Ergo             | `DLC_CH03_Boss_Ergo` | Anguished Guardian of the Ruins                          |
 
 > ### Hidden Ergo (Unobtainable without Commands)
 | Sl.| Ergo Crystal Name                    | Item ID              | Related Boss                                             |
@@ -702,17 +702,26 @@ Your patience is much appreciated! Till then refer to NarcolepticIBS' ID list (l
 ### 📜Collectibles
 ```
 I do not plan to curate and complete this section!
-I will be format and paste the existing Base Game Item IDs in NarcolepticIBS' ID List, but I will not categorize it or add the DLC Items.
+I will format and paste the existing Base Game Item IDs in NarcolepticIBS' ID List, but I will not categorize it or add the DLC Items.
 Please contribute if you want to complete this section of the list.
 ```
 ---
 
 ### ✍️Creator Notes
-This list primarily is for players who aren’t deep in the modding or game-unpacking scene but still want to spawn items in-game. Before the Overture DLC, [this list](https://fearlessrevolution.com/viewtopic.php?p=317058#p317058) by [NarcolepticIBS](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=170917&sid=b8be7d1e0c54b7505bfc7fd4f9a6fb06) was the go-to resource — but it never got updated after the DLC dropped. It also lacks some stuff like Cryptic Vessels & Bonus Costumes.<br>
+This list is for anybody tinkering with the commands, be it simple cheaters like me or serious modders. Before the Overture DLC, [this list](https://fearlessrevolution.com/viewtopic.php?p=317058#p317058) by [NarcolepticIBS](https://fearlessrevolution.com/memberlist.php?mode=viewprofile&u=170917&sid=b8be7d1e0c54b7505bfc7fd4f9a6fb06) was the go-to resource — but it never got updated after the DLC dropped. It also lacks some stuff like Cryptic Vessels & Bonus Costumes.<br>
 So when I started digging for Item IDs myself, I figured I can build a fresh, updated, centralized version. And host it on Github so others can contribute.<br>
 Hope it’s as useful to others as it’s been for me. Happy spawning! 🎮
 
 ### 📈Future Plans
 - I plan to complete - DLC Key Items
 - I do not plan to complete - Collectibles
-- If you want to expand the list or spot any mistakes, contributions via Pull Requests will be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!
+- If you have suggestions or spot any mistakes, please report it via the [issue tracker](github.com/PryorET/LiesOfP-ItemIDList)! Contributions via Pull Requests will also be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!
+  
+---
+
+### ☕ Support
+This project has been another one of my ways to avoid coursework. If it saved you some time, feel free to fuel my ergo addiction:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/pryoret)
+
+---

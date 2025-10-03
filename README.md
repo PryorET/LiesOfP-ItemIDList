@@ -230,8 +230,8 @@ I have written the max upgrade versions of upgradeable amulets in the `Max Lv` c
 | 2  | Nightmare's Amulet            | `DLC_AC_Boss_02`      |       |
 ||||
 | 3  | Duelist's Amulet              | `DLC_AC_01`           |       |
-| 4  | Plundering Amulet             | `DLC_AC_03`           |       |
-| 5  | Survival Amulet               | `DLC_AC_02`           |       |
+| 4  | Plundering Amulet             | `DLC_AC_02`           |       |
+| 5  | Survival Amulet               | `DLC_AC_03`           |       |
 | 6  | Solutionist's Amulet          | `DLC_AC_04`           |       |
 | 7  | Legion Amulet                 | `DLC_AC_07`           |       |
 | 8  | Giant's Amulet                | `DLC_AC_08`           |       |

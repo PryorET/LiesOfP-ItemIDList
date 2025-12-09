@@ -5,7 +5,7 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 **This repository contains a categorized list of Item IDs used in-game. Click on the titles below to skip to a category:**
 > 🔧[Equipment](#equipment) ⚔️[Weapons(+Upgrades)](#weaponsupgrades) 🦾[Legion Arms(+Upgrades)](#legion-arms) <br>
 > ⚙️[Grindstones](#grindstones) 💝[Amulets](#amulets)🛡️[Defense Parts](#defense-parts) 🔷[Wishstones](#wishstones)<br>
-> 🔑[Key Items](#key-items) ✨[Special Items](#special-items) 🧪[Consumables](consumables) 👜[Shops(+Currency)](#shopscurrency) 💎[Ergo](#ergo) 🧩[Encoded Messages](#encoded-messages)<br>
+> 🔑[Key Items](#key-items) ✨[Special Items](#special-items) 🧪[Consumables](#consumables) 👜[Shops(+Currency)](#shopscurrency) 💎[Ergo](#ergo) 🧩[Encoded Messages](#encoded-messages)<br>
 > 💿[Records](#records) 💬[Gestures](#gestures) 🥼[Costumes](#costumes) 📜[Collectibles](#collectibles)
 ---
 
@@ -392,11 +392,87 @@ All Defense Parts except **DLC** and **Basic** have a +1/+2 version.
 
 ---
 ### 🔑Key Items
-```
-Coming Soon!
-I will be merging Recollections here and classify them into 3 Categories - Keys, Main Quest Items, Side Quest Items.
-Your patience is much appreciated! Till then refer to NarcolepticIBS' ID list (link at the bottom)
-```
+> ### Keys
+| Sl.| Item Name                              | Item ID                        | Notes |
+|----|----------------------------------------|--------------------------------|-------|
+| 1  | Trinity Key                            | `Epic_key_riddle`              |       |
+| 2  | The Chosen One’s Trinity Key           | `Epic_key_riddle_final`        |       |
+| 3  | Black Rabbit Hole Key                  | `Epic_key_rabbit`              | DLC   |
+||||
+| 4  | Krat Central Station Main Entrance Key | `Key_1`                        | DLC   |
+| 5  | Secret Room Key                        | `Epic_key_hotel_VIP`           | DLC   |
+| 6  | Zoo Tram Station Key                   | `Epic_key_zoo_tram`            | DLC   |
+| 7  | Markiona’s Key                         | `Epic_key_zoo_play`            | DLC   |
+| 8  | Coolant Control Room Console Key       | `Epic_key_lab_control_room`    | DLC   |
+| 9  | Secret Ruins Key                       | `Epic_key_Ruin_BossRoom`       | DLC   |
+| 10 | Fisherman’s Weathered Key              | `Epic_key_sea_Fisherman`       | DLC   |
+| 11 | Monad Family’s Master Key              | `Epic_key_lab_monad`           | DLC   |
+| 12 | Rose Garden Key                        | `Epic_key_RoseGarden`          | DLC   |
+||||
+| 13 | Cable Railway Key                      | `Epic_key_cath_funicular`      |       |
+| 14 | Elysion Boulevard Apartment Key        | `Epic_key_hidden1`             |       |
+| 15 | Krat City Hall Key                     | `Epic_key_cityhall`            |       |
+| 16 | Krat City Hall Courtyard Key           | `Epic_key_ftr`                 |       |
+| 17 | Venigni Works Back Door Key            | `Epic_key_factory_to_cath`     |       |
+| 18 | Slum Shack Key                         | `Epic_key_SlumHouse`           |       |
+| 19 | Rosa Isabelle Street Entrance Key      | `Epic_key_hotel_to_cult`       |       |
+| 20 | Lorenzini Arcade 1st Floor Key         | `Epic_key_arcadecross`         |       |
+| 21 | Arcade Underground Passage Key         | `Epic_key_arcade_tunnel`       |       |
+| 22 | Saintess of Mercy Statue Gallery Key   | `Epic_key_pieta`               |       |
+| 23 | High-level Alchemist Badge             | `Epic_key_Monastery_entry`     |       |
+| 24 | Arche Abbey Passageway Key             | `Epic_key_MonasteryB_6F`       |       |
+| 25 | Letter with the Refuge’s Address       | `Epic_key_dottedpaper_room_01` |       |
+| 26 | Robbers’ Shack Key                     | `Epic_key_dottedpaper_room_03` |       |
+
+> ### Main Quest Items
+| Sl.| Item Name                         | Item ID                             | Notes |
+|----|-----------------------------------|-------------------------------------|-------|
+| 1  | Portrait of a Boy                 | `Epic_boy_paint`                    |       |
+| 2  | Golden Ergo                       | `Epic_GoldenErgo`                   |       |
+| 3  | Golden lead-acid battery          | `Epic_GoldenBattery`                |       |
+| 4  | Ergo Wavelength Decoder           | `Epic_ErgoWave_Interpreter`         |       |
+| 5  | Completed Ergo Wavelength Decoder | `Epic_Second_Life`                  |       |
+| 6  | King of Puppets’ Message          | `Epic_PuppetKing_Message`           |       |
+| 7  | Someone’s Necklace                | `Epic_OrphanageNecklace`            |       |
+| 8  | A cure for Antonia                | `Epic_Remedy`                       |       |
+| 9  | A cure no more effective          | `Epic_DiscoloredRemedy`             |       |
+| 10 | Arm of God                        | `Epic_ArmOfGod`                     |       |
+| 11 | Echo Player                       | `DLC_Quest_EchosPlayer`             | DLC   |
+| 11 | Bloodstained Locket               | `DLC_Collection_Epic_Romeo_Locket`  | DLC   |
+
+> ### Side Quest Items
+| Sl.| Item Name                       | Item ID                              | Notes |
+|----|---------------------------------|--------------------------------------|-------|
+| 1  | Faded Whistle                   | `Consume_Instrument_01`              |       |
+| 2  | Daylight Wreathed Horn          | `Consume_Nabal`                      | DLC   |
+| 3  | Carnival Coin                   | `DLC_Consume_Carnival_Coin`          | DLC   |
+||||
+| 4  | Broken Baby Puppet              | `Epic_babydoll`                      |       |
+| 5  | Small Wooden Officer Puppet     | `Epic_PoliceDoll`                    |       |
+| 6  | Archbishop’s Holy Mark          | `Epic_Poison_for_rest`               |       |
+| 7  | Smiling Bunny Mark              | `Epic_blackrabbit`                   |       |
+| 8  | Wedding Ring                    | `Epic_ring`                          |       |
+| 9  | Bloody Wedding Ring             | `Epic_ring_blood`                    |       |
+| 10 | Venigni Commemorative Coin      | `Epic_Venigni_Coin`                  |       |
+| 11 | Moon World Warrior Toy          | `Epic_Riddleking_Evidence`           |       |
+| 12 | Bright Red Apple                | `Epic_RedApple`                      |       |
+| 13 | Red Actress’s Locket            | `Epic_RedLadyLocket`                 |       |
+| 14 | The White Lady’s Locket         | `Epic_WhiteLadyLocket`               |       |
+| 15 | La Bleiwies                     | `Epic_WineCollection`                |       |
+| 16 | Four-fingered Glove             | `Epic_Glove`                         |       |
+| 17 | King of Riddles’ Surprise Box   | `Epic_riddle_box_01`                 |       |
+| 18 | King of Riddles’ Surprise Box   | `Epic_riddle_box_02`                 |       |
+| 19 | Golden Seed                     | `DLC_Quest_Gold_Seed`                | DLC   |
+| 20 | Golden Rose                     | `DLC_Quest_Gold_Rose`                | DLC   |
+| 21 | Bell Collar                     | `DLC_Quest_CatNecklace`              | DLC   |
+| 22 | Rose Shoes                      | `DLC_Quest_Rosaura_Parts_06`         | DLC   |
+| 23 | Old Bottle of Beer              | `DLC_Collection_Epic_Beer`           | DLC   |
+| 24 | Empty Painkiller Bottle         | `DLC_Collection_Epic_Painkiller`     | DLC   |
+| 25 | Blank Canvas                    | `DLC_Collection_Epic_Canvas`         | DLC   |
+| 26 | Goddard’s Art Supplies          | `DLC_Collection_Epic_Goldeyes`       | DLC   |
+| 27 | Painter’s Sky                   | `DLC_Collection_Poster_SelfPortrait` | DLC   |
+
+
 ---
 
 ### ✨Special Items

@@ -10,7 +10,6 @@ _Every relic has a name. Every name has a code. Welcome to the vault._
 ---
 
 ### ⚠️IMPORTANT: Read before proceeding
-- This list is **incomplete**, especially in the Key Items section which is still under construction.
 - Some category headings have a note below them. Make sure to read it before using Item IDs from that category!
 - The Commands and Item IDs are tested in Game **version 1.8.0.0** with Overture DLC and Bonus Content installed.
 ---
@@ -778,9 +777,90 @@ All Defense Parts except **DLC** and **Basic** have a +1/+2 version.
 ### 📜Collectibles
 ```
 I do not plan to curate and complete this section!
-I will format and paste the existing Base Game Item IDs in NarcolepticIBS' ID List, but I will not categorize it or add the DLC Items.
+I have pasted the existing Base Game Item IDs in NarcolepticIBS' ID List, but I will not categorize it or add the DLC Items.
 Please contribute if you want to complete this section of the list.
 ```
+| Sl.| Item Name                                                    | Item ID                                                | Notes                     |
+|----|--------------------------------------------------------------|--------------------------------------------------------|---------------------------|
+| 1  | Black Rabbit Brotherhood Ledger                              | `Collection_Letter_22`                                 |                           |
+| 2  | High-powered Flame Amplifier                                 | `Collection_Core_Fire`                                 |                           |
+| 3  | Primer for Workshop Technicians                              | `Collection_CentralStation_07`                         |                           |
+| 4  | Fairytale of the Three Brothers of the Workshop Tower        | `Collection_CentralStation_11`                         |                           |
+| 5  | Factory Manager’s Report                                     | `Collection_Letter_17`                                 |                           |
+| 6  | Overcharged Storage Battery                                  | `Collection_Core_Electronic`                           |                           |
+| 7  | Crumpled Baptist’s Doodle                                    | `Collection_Letter_56`                                 |                           |
+| 8  | Mechanical Cryptic Vessel                                    | `Collection_Dottedpaper_05`                            |                           |
+| 9  | Mechanical Cryptic Vessel Decryption                         | `Collection_Databox_Interpretation_05`                 |                           |
+| 10 | Guillaume’s Ballad                                           | `Collection_Letter_10`                                 |                           |
+| 11 | Miracle Cure                                                 | `Collection_Letter_02`                                 |                           |
+| 12 | Old Cryptic Vessel                                           | `Collection_Dottedpaper_03`                            |                           |
+| 13 | Rusty Cryptic Vessel                                         | `Collection_Dottedpaper_04`                            |                           |
+| 14 | Rusty Cryptic Vessel Decryption                              | `Collection_Databox_Interpretation_04`                 |                           |
+| 15 | Someone’s Report Notes Notebook                              | `Collection_Letter_InterviewNote`                      |                           |
+| 16 | A Letter that cannot arrive                                  | `Collection_CentralStation_03`                         |                           |
+| 17 | Archbishop's Diary                                           | `Collection_Letter_15`                                 |                           |
+| 18 | Descartes’s Note                                             | `Collection_Letter_11`                                 |                           |
+| 19 | Have a taste of La Bleiwies, the greatest wine in the world! | `Collection_Letter_18`                                 |                           |
+| 20 | The Witch's Tower and Princess Poster                        | `Collection_Letter_23`                                 |                           |
+| 21 | Letter from Someone Who Has Gone Ahead                       | `Collection_Letter_SMMockery`                          |                           |
+| 22 | Monad Charity House Guide                                    | `Collection_Letter_21`                                 |                           |
+| 23 | Monad Charity House Concert                                  | `Collection_Letter_MonadCharity`                       |                           |
+| 24 | Doctor’s Confessions                                         | `Collection_Letter_04`                                 |                           |
+| 25 | Venigni’s Guide                                              | `Collection_Letter_08`                                 |                           |
+| 26 | Venigni's Krat Landmark Guide I                              | `Collection_Letter_KratNotedGuide1`                    |                           |
+| 27 | Venigni's Krat Landmark Guide II                             | `Collection_Letter_KratNotedGuide2`                    |                           |
+| 28 | Venigni's Krat Landmark Guide IV                             | `Collection_Letter_34`                                 |                           |
+| 29 | Jeweled Cryptic Vessel                                       | `Collection_Dottedpaper_02`                            |                           |
+| 30 | Jeweled Cryptic Vessel Decryption                            | `Collection_Databox_Interpretation_02`                 |                           |
+| 31 | Resurrection! Champion Victor has returned!                  | `Collection_Letter_MonsterCityLegend`                  |                           |
+| 32 | Scribbles of Slum Resident                                   | `Collection_Letter_SlummerScrawl`                      |                           |
+| 33 | Crafted Cryptic Vessel                                       | `Collection_Dottedpaper_01`                            |                           |
+| 34 | Crafted Cryptic Vessel Decryption                            | `Collection_Databox_Interpretation_01`                 |                           |
+| 35 | Have you seen this eccentric?!                               | `Collection_Letter_05`                                 |                           |
+| 36 | Cecile’s Written Confession                                  | `Collection_Letter_20`                                 |                           |
+| 37 | Wanted:Black Rabbit Brotherhood                              | `Collection_Letter_52`                                 |                           |
+| 38 | Wanted:Alidoro                                               | `Collection_Letter_43`                                 |                           |
+| 39 | King of Riddles’ Hint                                        | `Collection_Letter_RiddleKingHint`                     |                           |
+| 40 | Scandal! V, the Tragedy Behind the Flamboyance               | `Collection_Letter_TragedyofV`                         |                           |
+| 41 | Passenger’s Note                                             | `Collection_Letter_passenger_note`                     |                           |
+| 42 | Simon Manus’s Confession                                     | `Collection_Letter_49`                                 |                           |
+| 43 | Experiment Report of Order - Test Subject 890                | `Collection_Letter_Remedy_TestRecord`                  |                           |
+| 44 | Alidoro’s Cryptic Vessel                                     | `Collection_Dottedpaper_06`                            |                           |
+| 45 | Alidoro’s Cryptic Vessel Decryption                          | `Collection_Databox_Interpretation_06`                 |                           |
+| 46 | Atkinson’s Letter                                            | `Collection_Letter_DearBell`                           |                           |
+| 47 | Notes from an Experiment                                     | `Collection_Letter_26`                                 |                           |
+| 48 | Stained Choir Sheet Music                                    | `Collection_Letter_Score`                              |                           |
+| 49 | Frozen Man’s Letter                                          | `Collection_Letter_Frozenman`                          |                           |
+| 50 | Woman’s Prayer                                               | `Collection_Letter_12`                                 |                           |
+| 51 | Lover’s Letter                                               | `Collection_CentralStation_06`                         |                           |
+| 52 | The Letter of the Eternal                                    | `Collection_Letter_55`                                 |                           |
+| 53 | Artist’s Doodle                                              | `Collection_Letter_Artist_Scribble`                    |                           |
+| 54 | Bundle of Old Letters                                        | `Collection_Letter_39`                                 |                           |
+| 55 | Moonlight Town Guide                                         | `Collection_Letter_Cathedral_Vil_History`              |                           |
+| 56 | The Great Venigni and Pistris the Submarine                  | `Collection_Letter_51`                                 |                           |
+| 57 | [This month’s trend: Stalker masks]                          | `Collection_Letter_StalkerMask`                        |                           |
+| 58 | Rose Estate Incident, left as a mystery                      | `Collection_Letter_25`                                 |                           |
+| 59 | Geppetto’s Letter                                            | `Collection_Letter_53`                                 |                           |
+| 60 | The greatest show on Earth is coming!                        | `Collection_Letter_KratGrandExposition_SpecialArticle` |                           |
+| 61 | Torn Doodle                                                  | `Collection_Letter_doodle`                             |                           |
+| 62 | Ripped Venigni's Krat Landmark Guide III                     | `Collection_Letter_CatFake`                            |                           |
+| 63 | Sweepers Branch Office Newspaper Archives                    | `Collection_Letter_19`                                 |                           |
+| 64 | Cherry-Scented Letter                                        | `Collection_Letter_40`                                 |                           |
+| 65 | Sentry’s Notebook                                            | `Collection_Letter_33`                                 |                           |
+| 66 | First Discovery, Camille                                     | `Collection_Letter_FirstDiscovery`                     |                           |
+| 67 | Note Left at the Counter                                     | `Collection_Letter_50`                                 |                           |
+| 68 | Order of Kroud Report                                        | `Collection_Letter_concierge_note`                     |                           |
+| 69 | Krat News Issue 1124                                         | `Collection_Letter_KratTimes1124`                      |                           |
+| 70 | Krat Times Issue 183                                         | `Collection_Letter_KratTimes183`                       |                           |
+| 71 | Special Report! Foreigner’s Confession                       | `Collection_Letter_StrangerConfession`                 |                           |
+| 72 | Introducing the Parade Puppet!                               | `Collection_Letter_Introduce_ParadeDoll`               |                           |
+| 73 | The Blue Butterfly’s Letter                                  | `Collection_Letter_54`                                 |                           |
+| 74 | Bloody Letter                                                | `Collection_CentralStation_05`                         |                           |
+| 75 | So Said Pistris I                                            | `Collection_Letter_41`                                 |                           |
+| 76 | So Said Pistris II                                           | `Collection_Letter_42`                                 |                           |
+| 77 | So Said Pistris III                                          | `Collection_Letter_47`                                 |                           |
+| 78 | Frayed Notebook                                              | `Collection_Letter_AlidoroNote`                        |                           |
+
 ---
 
 ### ✍️Creator Notes
@@ -789,8 +869,7 @@ So when I started digging for Item IDs myself, I figured I can build a fresh, up
 Hope it’s as useful to others as it’s been for me. Happy spawning! 🎮
 
 ### 📈Future Plans
-- I plan to complete - DLC Key Items
-- I do not plan to complete - Collectibles
+- I do not plan to complete the Collectibles Section
 - If you have suggestions or spot any mistakes, please report it via the [issue tracker](https://github.com/PryorET/LiesOfP-ItemIDList/issues)! Contributions via Pull Requests will also be much appreciated! Kindly [EMail me](mailto:pryor.e.t.x100@gmail.com) if you have any questions!
 
 ---
